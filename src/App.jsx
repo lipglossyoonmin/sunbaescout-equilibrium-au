@@ -305,7 +305,36 @@ const GENERAL_DATA = [
   { id: 'g259', user: USERS.jimin, time: "Aug 15, 2026, 11:30 AM", text: "outside where?" },
   { id: 'g260', user: USERS.hobi, time: "Aug 15, 2026, 11:31 AM", text: "HIS BUILDING" },
   { id: 'g261', user: USERS.jimin, time: "Aug 15, 2026, 11:32 AM", text: "okay, let us know what you find ASAP." },
-  { id: 'g262', user: USERS.hobi, time: "Aug 15, 2026, 11:35 AM", text: "Oh fuck guys. VC NOW.", reactions: [{emoji: "📞", count: 5}, {emoji: "❗", count: 4}, {emoji: "😰", count: 5}] }
+  { id: 'g262', user: USERS.hobi, time: "Aug 15, 2026, 11:35 AM", text: "Oh fuck guys. VC NOW.", reactions: [{emoji: "📞", count: 5}, {emoji: "❗", count: 4}, {emoji: "😰", count: 5}] },
+
+  // --- AUG 18 - SEP 1: KEEPING IT NORMAL ---
+  { id: 'g262a', user: USERS.jin, time: "Aug 18, 2026, 07:02 PM", text: "I made too much japchae. Come get some." },
+  { id: 'g262b', user: USERS.hobi, time: "Aug 18, 2026, 07:10 PM", text: "on my way" },
+  { id: 'g262c', user: USERS.jk, time: "Aug 18, 2026, 07:11 PM", text: "save me some" },
+  { id: 'g262d', user: USERS.jin, time: "Aug 18, 2026, 07:12 PM", text: "There's plenty." },
+  { id: 'g262e', user: USERS.tae, time: "Aug 18, 2026, 07:30 PM", text: "did you know wombats are nocturnal" },
+  { id: 'g262f', user: USERS.joon, time: "Aug 18, 2026, 07:34 PM", text: "Crepuscular, technically.", reactions: [{emoji: "🤓", count: 1}] },
+  { id: 'g262g', user: USERS.tae, time: "Aug 18, 2026, 07:35 PM", text: "thank you namjoon" },
+
+  { id: 'g262h', user: USERS.jk, time: "Aug 22, 2026, 09:00 PM", text: "game night?" },
+  { id: 'g262i', user: USERS.jk, time: "Aug 22, 2026, 09:14 PM", text: "i'll be in the gaming lounge" },
+  { id: 'g262j', user: USERS.hobi, time: "Aug 22, 2026, 09:52 PM", text: "sorry kook. next week" },
+  { id: 'g262k', user: USERS.jk, time: "Aug 22, 2026, 09:53 PM", text: "it's fine. still winning" },
+
+  { id: 'g262l', user: USERS.joon, time: "Aug 27, 2026, 02:47 AM", text: "Random question. Did Yoongi have a place or time zone he preferred?" },
+  { id: 'g262m', user: USERS.jimin, time: "Aug 27, 2026, 02:49 AM", text: "why are you awake" },
+  { id: 'g262n', user: USERS.joon, time: "Aug 27, 2026, 02:50 AM", text: "Couldn't sleep. Never mind." },
+  { id: 'g262o', user: USERS.joon, time: "Aug 27, 2026, 02:51 AM", text: "Why are you awake?" },
+  { id: 'g262p', user: USERS.jimin, time: "Aug 27, 2026, 02:53 AM", text: "go to sleep hyung" },
+
+  { id: 'g262q', user: USERS.jin, time: "Sep 01, 2026, 06:15 PM", text: "I bought pudding since none of you could be bothered." },
+  { id: 'g262r', user: USERS.tae, time: "Sep 01, 2026, 06:16 PM", text: "what flavor" },
+  { id: 'g262s', user: USERS.jin, time: "Sep 01, 2026, 06:16 PM", text: "Chocolate. Two 4-packs, so there's one to spare." },
+  { id: 'g262t', user: USERS.jin, time: "Sep 01, 2026, 06:21 PM", text: "Two to spare 😔", reactions: [{emoji: "💔", count: 4}] },
+  { id: 'g262u', user: USERS.hobi, time: "Sep 01, 2026, 06:23 PM", text: "i'll take an extra" },
+  { id: 'g262v', user: USERS.jk, time: "Sep 01, 2026, 06:25 PM", text: "i'll take his" },
+  { id: 'g262w', user: USERS.jin, time: "Sep 01, 2026, 06:25 PM", text: "No." },
+  { id: 'g262x', user: USERS.jin, time: "Sep 01, 2026, 06:26 PM", text: "Vultures." }
 ];
 
 const WELCOME_DATA = [
@@ -353,8 +382,13 @@ const ANNOUNCEMENTS_DATA = [
 const YOONGI_WHERE_DATA = [
   { id: 'yw1', user: USERS.jk, time: "Sep 04, 2026, 03:27 PM", text: "📌 **PINNED: Master Timeline & Evidence Log**\nDrop all physical clues, text screenshots, and audio files here. Do not clutter this channel with chatter. Keep it organized so we can figure out what happened.", reactions: [{emoji: "📌", count: 5}, {emoji: "🔍", count: 3}] },
   { id: 'yw2', user: USERS.hobi, time: "Sep 04, 2026, 04:30 PM", text: "okay, dropping off vc so my battery doesn't die. here’s a pic so we have evidence.", attachment: { url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib8FnkXr__GjTmA6I0q0kjGX3aeRGFo0tJ_9vPt81Vc6UD3FYsTXCGcU24ug8paoRoctKFNzcXl7nGpK4A8zID4qS5tn6-ygXmds2Amy3EVxh7sYwRQoSRfJ3-Uwlv6-Z2kvgWiYOzRc9izOB54kTZ2dOhin0v2DGYrIdaSryfz-jXF52v-PND6sHnkeg/s1600/Screen%20Shot%202026-10-31%20at%203.50.42%20PM.png", alt: "evidence" } },
-  { id: 'yw3', user: USERS.jimin, time: "Sep 04, 2026, 04:32 PM", text: "ok but what do we do next" }
+  { id: 'yw3', user: USERS.jimin, time: "Sep 04, 2026, 04:32 PM", text: "ok but what do we do next" },
+  { id: 'yw4', user: USERS.jk, time: "Sep 04, 2026, 04:35 PM", text: "do you guys even read the announcements channel? we've tried the police and they've been less than helpful. it's time that each and every one of us gets it together and posts here when where how and why we last saw him. LET'S GO." }
 ];
+
+// Last-read marker: the red NEW line appears right after this message, and the channel opens there.
+// To move it later, change the id. Channels not listed open at the bottom as usual.
+const LAST_READ = { general: 'g262' };
 
 export default function App() {
   const [activeChannel, setActiveChannel] = useState('general');
@@ -364,10 +398,15 @@ export default function App() {
   const [isTextChannelsCategoryOpen, setIsTextChannelsCategoryOpen] = useState(true);
   const [isVoiceChannelsCategoryOpen, setIsVoiceChannelsCategoryOpen] = useState(true);
   const chatEndRef = useRef(null);
+  const lastReadRef = useRef(null);
 
   // Auto-scroll to bottom when changing channels
   useEffect(() => {
-    chatEndRef.current?.scrollIntoView({ behavior: 'auto' });
+    if (LAST_READ[activeChannel] && lastReadRef.current) {
+      lastReadRef.current.scrollIntoView({ behavior: 'auto', block: 'center' });
+    } else {
+      chatEndRef.current?.scrollIntoView({ behavior: 'auto' });
+    }
   }, [activeChannel]);
 
   const currentDisplayData = activeChannel === 'general' ? GENERAL_DATA 
@@ -565,7 +604,8 @@ export default function App() {
               const isGrouped = i > 0 && arr[i - 1].user.name === msg.user.name && arr[i - 1].time === msg.time;
               
               return (
-                <div key={msg.id} className={`flex gap-4 hover:bg-black/10 py-1 px-2 -mx-2 rounded msg-animate ${isGrouped ? 'mt-[-20px]' : ''}`}>
+                <React.Fragment key={msg.id}>
+                <div className={`flex gap-4 hover:bg-black/10 py-1 px-2 -mx-2 rounded msg-animate ${isGrouped ? 'mt-[-20px]' : ''}`}>
                   
                   {/* Avatar or Timestamp */}
                   <div className="w-10 flex-shrink-0 flex justify-center mt-1">
@@ -622,6 +662,13 @@ export default function App() {
                     )}
                   </div>
                 </div>
+                {LAST_READ[activeChannel] === msg.id && (
+                  <div ref={lastReadRef} className="relative flex items-center -my-2">
+                    <div className="flex-1 h-px bg-[#f23f43]"></div>
+                    <span className="ml-1 bg-[#f23f43] text-white text-[10px] font-bold uppercase rounded px-1 leading-4">New</span>
+                  </div>
+                )}
+                </React.Fragment>
               );
             })}
             <div ref={chatEndRef} />
