@@ -747,9 +747,9 @@ export default function App() {
                     {msg.attachment && (
                       <div 
                         onClick={() => setActiveModal(msg.attachment)}
-                        className="mt-3 inline-block max-w-[260px] rounded cursor-pointer group relative border border-[#202225] overflow-hidden"
+                        className="mt-3 w-fit rounded cursor-pointer group relative border border-[#202225] overflow-hidden"
                       >
-                        <img src={msg.attachment.url} alt={msg.attachment.alt || "clue"} className="block w-auto h-auto max-w-full max-h-96 object-contain opacity-90 group-hover:opacity-60 transition-opacity" />
+                        <img src={msg.attachment.url} alt={msg.attachment.alt || "clue"} className="block w-auto h-auto max-w-[260px] max-h-96 opacity-90 group-hover:opacity-60 transition-opacity" />
                         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                           <span className="bg-black/75 text-white font-bold py-2 px-4 rounded text-sm">View File</span>
                         </div>
