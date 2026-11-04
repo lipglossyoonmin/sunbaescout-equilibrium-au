@@ -334,7 +334,27 @@ const GENERAL_DATA = [
   { id: 'g262u', user: USERS.hobi, time: "Sep 01, 2026, 06:23 PM", text: "i'll take an extra" },
   { id: 'g262v', user: USERS.jk, time: "Sep 01, 2026, 06:25 PM", text: "i'll take his" },
   { id: 'g262w', user: USERS.jin, time: "Sep 01, 2026, 06:25 PM", text: "No." },
-  { id: 'g262x', user: USERS.jin, time: "Sep 01, 2026, 06:26 PM", text: "Vultures." }
+  { id: 'g262x', user: USERS.jin, time: "Sep 01, 2026, 06:26 PM", text: "Vultures." },
+
+  // --- SEP 5 - 6: COPING QUIETLY ---
+  { id: 'g263', user: USERS.hobi, time: "Sep 05, 2026, 05:48 AM", text: "went for a run by the river" },
+  { id: 'g264', user: USERS.jin, time: "Sep 05, 2026, 07:15 AM", text: "At 5am?" },
+  { id: 'g265', user: USERS.hobi, time: "Sep 05, 2026, 07:20 AM", text: "it was quiet" },
+
+  { id: 'g266', user: USERS.jk, time: "Sep 05, 2026, 12:40 PM", text: "ordered too much tteokbokki" },
+  { id: 'g267', user: USERS.jk, time: "Sep 05, 2026, 12:41 PM", text: "jimin-hyung you're closest" },
+  { id: 'g268', user: USERS.jimin, time: "Sep 05, 2026, 01:15 PM", text: "ok" },
+  { id: 'g269', user: USERS.jimin, time: "Sep 05, 2026, 01:52 PM", text: "thanks kook", reactions: [{emoji: "🫶", count: 2}] },
+
+  { id: 'g270', user: USERS.joon, time: "Sep 05, 2026, 09:30 PM", text: "Does anyone have a printer I can borrow?" },
+  { id: 'g271', user: USERS.jin, time: "Sep 05, 2026, 09:34 PM", text: "For what?" },
+  { id: 'g272', user: USERS.joon, time: "Sep 05, 2026, 09:35 PM", text: "Work." },
+
+  { id: 'g273', user: USERS.tae, time: "Sep 06, 2026, 03:12 PM", text: "someone tell me a joke" },
+  { id: 'g274', user: USERS.jin, time: "Sep 06, 2026, 03:13 PM", text: "What do you call a fake noodle?" },
+  { id: 'g275', user: USERS.jin, time: "Sep 06, 2026, 03:13 PM", text: "An impasta.", reactions: [{emoji: "💀", count: 1}] },
+
+  { id: 'g276', user: USERS.jin, time: "Sep 06, 2026, 06:00 PM", text: "Dinner Sunday. My place. Everyone.", reactions: [{emoji: "✅", count: 5}] }
 ];
 
 const WELCOME_DATA = [
@@ -383,12 +403,87 @@ const YOONGI_WHERE_DATA = [
   { id: 'yw1', user: USERS.jk, time: "Sep 04, 2026, 03:27 PM", text: "📌 **PINNED: Master Timeline & Evidence Log**\nDrop all physical clues, text screenshots, and audio files here. Do not clutter this channel with chatter. Keep it organized so we can figure out what happened.", reactions: [{emoji: "📌", count: 5}, {emoji: "🔍", count: 3}] },
   { id: 'yw2', user: USERS.hobi, time: "Sep 04, 2026, 04:30 PM", text: "okay, dropping off vc so my battery doesn't die. here’s a pic so we have evidence.", attachment: { url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib8FnkXr__GjTmA6I0q0kjGX3aeRGFo0tJ_9vPt81Vc6UD3FYsTXCGcU24ug8paoRoctKFNzcXl7nGpK4A8zID4qS5tn6-ygXmds2Amy3EVxh7sYwRQoSRfJ3-Uwlv6-Z2kvgWiYOzRc9izOB54kTZ2dOhin0v2DGYrIdaSryfz-jXF52v-PND6sHnkeg/s1600/Screen%20Shot%202026-10-31%20at%203.50.42%20PM.png", alt: "evidence" } },
   { id: 'yw3', user: USERS.jimin, time: "Sep 04, 2026, 04:32 PM", text: "ok but what do we do next" },
-  { id: 'yw4', user: USERS.jk, time: "Sep 04, 2026, 04:35 PM", text: "do you guys even read the announcements channel? we've tried the police and they've been less than helpful. it's time that each and every one of us gets it together and posts here when where how and why we last saw him. LET'S GO." }
+  { id: 'yw4', user: USERS.jk, time: "Sep 04, 2026, 04:35 PM", text: "do you guys even read the announcements channel? we've tried the police and they've been less than helpful. it's time that each and every one of us gets it together and posts here when where how and why we last saw him. LET'S GO." },
+
+  // --- SEP 4 EVENING: EVERYONE'S LAST CONTACT ---
+  // 1. Jungkook
+  { id: 'yw5', user: USERS.jk, time: "Sep 04, 2026, 04:41 PM", text: "fine. i'll go first" },
+  { id: 'yw6', user: USERS.jk, time: "Sep 04, 2026, 04:42 PM", text: "", attachment: { url: "/round%203%20yoongi%20jungkook%20text.png", alt: "texts with Yoongi" } },
+  { id: 'yw7', user: USERS.jk, time: "Sep 04, 2026, 04:42 PM", text: "read it. nothing." },
+  { id: 'yw8', user: USERS.jk, time: "Sep 04, 2026, 04:44 PM", text: "", attachment: { url: "/round%203%20yoongi%20jungkook%20discord.png", alt: "Discord DM with Yoongi" } },
+  { id: 'yw9', user: USERS.jk, time: "Sep 04, 2026, 04:45 PM", text: "look at the time on the reaction" },
+  { id: 'yw10', user: USERS.jk, time: "Sep 04, 2026, 04:45 PM", text: "his phone was already going to voicemail on the 9th" },
+  { id: 'yw11', user: USERS.jin, time: "Sep 04, 2026, 04:46 PM", text: "So his phone was on." },
+  { id: 'yw12', user: USERS.jk, time: "Sep 04, 2026, 04:46 PM", text: "for like a minute. at 3am." },
+  { id: 'yw13', user: USERS.jk, time: "Sep 04, 2026, 04:48 PM", text: "also i called his landlord" },
+  { id: 'yw14', user: USERS.jk, time: "Sep 04, 2026, 04:48 PM", text: "rent's paid through december" },
+  { id: 'yw15', user: USERS.tae, time: "Sep 04, 2026, 04:49 PM", text: "december" },
+  { id: 'yw16', user: USERS.jin, time: "Sep 04, 2026, 04:49 PM", text: "That's four months." },
+
+  // 2. Jin
+  { id: 'yw17', user: USERS.jin, time: "Sep 04, 2026, 05:03 PM", text: "I don't know if this counts.", attachment: { url: "/round%203%20yoongi%20seokjin%20money%20transaction.png", alt: "bank transfer" } },
+  { id: 'yw18', user: USERS.jin, time: "Sep 04, 2026, 05:04 PM", text: "He's never let me pay for anything in his life." },
+  { id: 'yw19', user: USERS.hobi, time: "Sep 04, 2026, 05:05 PM", text: "wait the chicken from the han river??" },
+  { id: 'yw20', user: USERS.jin, time: "Sep 04, 2026, 05:05 PM", text: "The chicken from the Han River." },
+  { id: 'yw21', user: USERS.jk, time: "Sep 04, 2026, 05:06 PM", text: "why would he pay that back now" },
+  { id: 'yw22', user: USERS.jin, time: "Sep 04, 2026, 05:08 PM", text: "I don't know. It was the one time he forgot his wallet, right after a whole speech about being his own boss. I teased him for years. I thought he never paid me back because he liked the bit as much as I did." },
+
+  // 3. Hoseok
+  { id: 'yw23', user: USERS.hobi, time: "Sep 04, 2026, 06:58 PM", text: "ok i'm charged" },
+  { id: 'yw24', user: USERS.hobi, time: "Sep 04, 2026, 06:59 PM", text: "", attachment: { url: "/round%203%20yoongi%20hoseok%20text.png", alt: "texts with Yoongi" } },
+  { id: 'yw25', user: USERS.hobi, time: "Sep 04, 2026, 07:01 PM", text: "i said a few days" },
+  { id: 'yw26', user: USERS.hobi, time: "Sep 04, 2026, 07:01 PM", text: "it was july 30" },
+  { id: 'yw27', user: USERS.hobi, time: "Sep 04, 2026, 07:02 PM", text: "he tried to talk to me and i told him to go to sleep" },
+  { id: 'yw28', user: USERS.jin, time: "Sep 04, 2026, 07:03 PM", text: "Hobi." },
+  { id: 'yw29', user: USERS.hobi, time: "Sep 04, 2026, 07:03 PM", text: "😞" },
+
+  // 4. Namjoon
+  { id: 'yw30', user: USERS.jk, time: "Sep 04, 2026, 07:10 PM", text: "namjoon-hyung?" },
+  { id: 'yw31', user: USERS.joon, time: "Sep 04, 2026, 07:14 PM", text: "Here's our last text. I'm still going through some things. Do you guys know a 5 or 6 digit number that would have been important to Yoongi-hyung?", attachment: { url: "/round%203%20yoongi%20namjoon%20text.png", alt: "texts with Yoongi" } },
+  { id: 'yw32', user: USERS.jk, time: "Sep 04, 2026, 07:14 PM", text: "going through what" },
+  { id: 'yw33', user: USERS.jin, time: "Sep 04, 2026, 07:15 PM", text: "Like a code?" },
+  { id: 'yw34', user: USERS.hobi, time: "Sep 04, 2026, 07:15 PM", text: "for what?" },
+  { id: 'yw35', user: USERS.jk, time: "Sep 04, 2026, 07:16 PM", text: "wait. aug 9 at 11:42pm?" },
+  { id: 'yw36', user: USERS.jk, time: "Sep 04, 2026, 07:16 PM", text: "that's the night i asked you to go knock on his door. his phone was already going to voicemail" },
+  { id: 'yw37', user: USERS.joon, time: "Sep 04, 2026, 07:17 PM", text: "I know." },
+  { id: 'yw38', user: USERS.joon, time: "Sep 04, 2026, 07:17 PM", text: "Nothing now. I'll post when I have something." },
+
+  // 5. Taehyung
+  { id: 'yw39', user: USERS.jk, time: "Sep 04, 2026, 07:18 PM", text: "tae" },
+  { id: 'yw40', user: USERS.tae, time: "Sep 04, 2026, 07:20 PM", text: "nothing since the playlist" },
+  { id: 'yw41', user: USERS.jk, time: "Sep 04, 2026, 07:20 PM", text: "what about before that" },
+  { id: 'yw42', user: USERS.tae, time: "Sep 04, 2026, 07:22 PM", text: "our last texts were from before he went missing. if we want to talk it's usually through songs." },
+  { id: 'yw43', user: USERS.jk, time: "Sep 04, 2026, 07:22 PM", text: "and the last song was from him and it was called \"call me\"? did you try to call him?" },
+  { id: 'yw44', user: USERS.tae, time: "Sep 04, 2026, 07:23 PM", text: "what? no. i added that song for him. he was supposed to call me." },
+  { id: 'yw45', user: USERS.jk, time: "Sep 04, 2026, 07:23 PM", text: "you said he added it!" },
+  { id: 'yw46', user: USERS.tae, time: "Sep 04, 2026, 07:23 PM", text: "no i didn't. hold on." },
+  { id: 'yw47', user: USERS.tae, time: "Sep 04, 2026, 07:24 PM", text: "okay. i just looked at the chat. i can see how you thought that. no, it was from me and he never called.", reactions: [{emoji: "💔", count: 4}] },
+
+  // 6. Jimin
+  { id: 'yw48', user: USERS.jk, time: "Sep 04, 2026, 07:25 PM", text: "namjoon-hyung at least posted something. jimin you haven't said anything. he was supposed to bring you food on june 28. did he?" },
+  { id: 'yw49', user: USERS.jimin, time: "Sep 04, 2026, 07:31 PM", text: "yes" },
+  { id: 'yw50', user: USERS.jk, time: "Sep 04, 2026, 07:31 PM", text: "and?" },
+  { id: 'yw51', user: USERS.jimin, time: "Sep 04, 2026, 07:34 PM", text: "", attachment: { url: "/round%203%20yoongi%20jimin%20text.png", alt: "texts with Yoongi" } },
+  { id: 'yw52', user: USERS.jk, time: "Sep 04, 2026, 07:35 PM", text: "what's above that" },
+  { id: 'yw53', user: USERS.jimin, time: "Sep 04, 2026, 07:35 PM", text: "nothing important" },
+  { id: 'yw54', user: USERS.jk, time: "Sep 04, 2026, 07:35 PM", text: "jimin" },
+  { id: 'yw55', user: USERS.jimin, time: "Sep 04, 2026, 07:36 PM", text: "i said it's nothing. he said something that worried me though." },
+  { id: 'yw56', user: USERS.jk, time: "Sep 04, 2026, 07:37 PM", text: "what was it?" },
+  { id: 'yw57', user: USERS.jimin, time: "Sep 04, 2026, 07:40 PM", text: "we had a fight before he left my place that night. he said he didn't deserve to be there, but he had found a way that he thought maybe he could." },
+  { id: 'yw58', user: USERS.hobi, time: "Sep 04, 2026, 07:41 PM", text: "found a way to what" },
+  { id: 'yw59', user: USERS.joon, time: "Sep 04, 2026, 07:41 PM", text: "Did he say where?" },
+  { id: 'yw60', user: USERS.jk, time: "Sep 04, 2026, 07:42 PM", text: "deserve to be there? what?" },
+  { id: 'yw61', user: USERS.jimin, time: "Sep 04, 2026, 07:45 PM", text: "i told him of course he did. he'd been so good to me, to all of us. but he just shook his head and said it all made him so tired." },
+  { id: 'yw62', user: USERS.jk, time: "Sep 04, 2026, 07:46 PM", text: "what aren't you telling us?" },
+  { id: 'yw63', user: USERS.jimin, time: "Sep 04, 2026, 07:46 PM", text: "i just told you everything. can you stop?" },
+  { id: 'yw64', user: USERS.jk, time: "Sep 04, 2026, 07:47 PM", text: "it doesn't sound like everything." },
+  { id: 'yw65', user: USERS.jin, time: "Sep 04, 2026, 07:47 PM", text: "That's enough. Jimin, come over for a little bit, okay?" },
+  { id: 'yw66', user: USERS.jimin, time: "Sep 04, 2026, 07:49 PM", text: "yeah, ok. i'll see you soon." }
 ];
 
 // Last-read marker: the red NEW line appears right after this message, and the channel opens there.
 // To move it later, change the id. Channels not listed open at the bottom as usual.
-const LAST_READ = { general: 'g262' };
+const LAST_READ = { general: 'g262x', 'yoongi-where': 'yw4' };
 
 export default function App() {
   const [activeChannel, setActiveChannel] = useState('general');
@@ -652,9 +747,9 @@ export default function App() {
                     {msg.attachment && (
                       <div 
                         onClick={() => setActiveModal(msg.attachment)}
-                        className="mt-3 max-w-sm rounded cursor-pointer group relative border border-[#202225] overflow-hidden"
+                        className="mt-3 inline-block max-w-[260px] rounded cursor-pointer group relative border border-[#202225] overflow-hidden"
                       >
-                        <img src={msg.attachment.url} alt="clue" className="w-full h-auto object-cover max-h-64 opacity-90 group-hover:opacity-60 transition-opacity" />
+                        <img src={msg.attachment.url} alt={msg.attachment.alt || "clue"} className="block w-auto h-auto max-w-full max-h-96 object-contain opacity-90 group-hover:opacity-60 transition-opacity" />
                         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                           <span className="bg-black/75 text-white font-bold py-2 px-4 rounded text-sm">View File</span>
                         </div>
