@@ -5,7 +5,11 @@ import {
   Users,
   ChevronDown,
   ChevronRight,
-  Volume2
+  Volume2,
+  Lock,
+  ArrowLeft,
+  Mail,
+  Search
 } from 'lucide-react';
 
 // --- DATA ---
@@ -354,7 +358,25 @@ const GENERAL_DATA = [
   { id: 'g274', user: USERS.jin, time: "Sep 06, 2026, 03:13 PM", text: "What do you call a fake noodle?" },
   { id: 'g275', user: USERS.jin, time: "Sep 06, 2026, 03:13 PM", text: "An impasta.", reactions: [{emoji: "💀", count: 1}] },
 
-  { id: 'g276', user: USERS.jin, time: "Sep 06, 2026, 06:00 PM", text: "Dinner Sunday. My place. Everyone.", reactions: [{emoji: "✅", count: 5}] }
+  { id: 'g276', user: USERS.jin, time: "Sep 06, 2026, 06:00 PM", text: "Dinner Sunday. My place. Everyone.", reactions: [{emoji: "✅", count: 5}] },
+
+  // --- SEP 7 - 12 ---
+  { id: 'g277', user: USERS.jk, time: "Sep 07, 2026, 09:02 PM", text: "anyone want to play tonight" },
+  { id: 'g278', user: USERS.tae, time: "Sep 07, 2026, 09:40 PM", text: "i'll play" },
+  { id: 'g279', user: USERS.jk, time: "Sep 07, 2026, 09:40 PM", text: "wait really" },
+  { id: 'g280', user: USERS.tae, time: "Sep 07, 2026, 09:41 PM", text: "badly" },
+  { id: 'g281', user: USERS.hobi, time: "Sep 09, 2026, 04:12 AM", text: "reorganized my whole closet" },
+  { id: 'g282', user: USERS.jin, time: "Sep 09, 2026, 07:05 AM", text: "Anything you could get rid of?" },
+  { id: 'g283', user: USERS.hobi, time: "Sep 09, 2026, 07:30 AM", text: "everything in there is vital and important" },
+  { id: 'g284', user: USERS.jin, time: "Sep 10, 2026, 06:20 PM", text: "What does everyone want Sunday?" },
+  { id: 'g285', user: USERS.jk, time: "Sep 10, 2026, 06:21 PM", text: "meat" },
+  { id: 'g286', user: USERS.tae, time: "Sep 10, 2026, 06:25 PM", text: "the soup" },
+  { id: 'g287', user: USERS.jimin, time: "Sep 10, 2026, 06:40 PM", text: "anything" },
+  { id: 'g288', user: USERS.joon, time: "Sep 10, 2026, 10:58 PM", text: "Whatever's easiest. I'll be there." },
+  { id: 'g289', user: USERS.jimin, time: "Sep 11, 2026, 02:14 AM", text: "anyone up" },
+  { id: 'g290', user: USERS.jin, time: "Sep 11, 2026, 07:02 AM", text: "I am now. Are you okay?" },
+  { id: 'g291', user: USERS.jimin, time: "Sep 11, 2026, 09:31 AM", text: "yeah. couldn't sleep" },
+  { id: 'g292', user: USERS.jin, time: "Sep 12, 2026, 05:00 PM", text: "Tomorrow. 7pm. Don't make me come get you.", reactions: [{emoji: "✅", count: 5}] }
 ];
 
 const WELCOME_DATA = [
@@ -478,16 +500,214 @@ const YOONGI_WHERE_DATA = [
   { id: 'yw63', user: USERS.jimin, time: "Sep 04, 2026, 07:46 PM", text: "i just told you everything. can you stop?" },
   { id: 'yw64', user: USERS.jk, time: "Sep 04, 2026, 07:47 PM", text: "it doesn't sound like everything." },
   { id: 'yw65', user: USERS.jin, time: "Sep 04, 2026, 07:47 PM", text: "That's enough. Jimin, come over for a little bit, okay?" },
-  { id: 'yw66', user: USERS.jimin, time: "Sep 04, 2026, 07:49 PM", text: "yeah, ok. i'll see you soon." }
+  { id: 'yw66', user: USERS.jimin, time: "Sep 04, 2026, 07:49 PM", text: "yeah, ok. i'll see you soon." },
+
+  // --- SEP 13: NAMJOON'S CONFESSION + THE PASSWORD ---
+  { id: 'yw67', user: USERS.joon, time: "Sep 13, 2026, 10:42 PM", text: "Ok so I lied." },
+  { id: 'yw68', user: USERS.joon, time: "Sep 13, 2026, 10:42 PM", text: "Most of you heard some of this at dinner. I'm sorry. I wanted to protect his privacy." },
+  { id: 'yw69', user: USERS.joon, time: "Sep 13, 2026, 10:44 PM", text: "On Aug 9, he video-called me around 11:25 at night. Wherever he is, the wi-fi must be spotty. He asked me to log into his email and check if something had come through." },
+  { id: 'yw70', user: USERS.joon, time: "Sep 13, 2026, 10:45 PM", text: "He read me the password while I typed." },
+  { id: 'yw71', user: USERS.jk, time: "Sep 13, 2026, 10:45 PM", text: "check what" },
+  { id: 'yw72', user: USERS.joon, time: "Sep 13, 2026, 10:46 PM", text: "A payment confirmation from his landlord. He seemed relieved." },
+  { id: 'yw73', user: USERS.joon, time: "Sep 13, 2026, 10:47 PM", text: "I asked where he was. He said somewhere quiet, and asked how we were all doing." },
+  { id: 'yw74', user: USERS.joon, time: "Sep 13, 2026, 10:48 PM", text: "There was a wooden wall behind him. And someone off camera said \"It's time, Yoongi.\" He said okay and hung up." },
+  { id: 'yw75', user: USERS.jimin, time: "Sep 13, 2026, 10:49 PM", text: "who the fuck\nyou know what. nevermind" },
+  { id: 'yw76', user: USERS.joon, time: "Sep 13, 2026, 10:49 PM", text: "I don't know." },
+  { id: 'yw77', user: USERS.joon, time: "Sep 13, 2026, 10:51 PM", text: "He texted me thanks a few minutes later. That's the screenshot." },
+  { id: 'yw78', user: USERS.joon, time: "Sep 13, 2026, 10:52 PM", text: "Kook asked me to knock on his door the next day. I didn't, because I'd just seen him and he looked fine. He looked rested. I've been trying to get back into his email since." },
+  { id: 'yw79', user: USERS.hobi, time: "Sep 13, 2026, 10:53 PM", text: "which is why you've been asking weird questions, right?" },
+  { id: 'yw80', user: USERS.joon, time: "Sep 13, 2026, 10:54 PM", text: "Yes. I can't remember the password and I need help." },
+  { id: 'yw81', user: USERS.jin, time: "Sep 13, 2026, 10:55 PM", text: "Namjoon. That's his private email." },
+  { id: 'yw82', user: USERS.tae, time: "Sep 13, 2026, 10:56 PM", text: "i'd rather he be mad at us" },
+  { id: 'yw83', user: USERS.hobi, time: "Sep 13, 2026, 10:56 PM", text: "if it was one of us he'd already be in" },
+  { id: 'yw84', user: USERS.jk, time: "Sep 13, 2026, 10:56 PM", text: "i'm in" },
+  { id: 'yw85', user: USERS.jin, time: "Sep 13, 2026, 10:58 PM", text: "If we do this, whatever's in there stays between us." },
+  { id: 'yw86', user: USERS.jimin, time: "Sep 13, 2026, 11:01 PM", text: "do it" },
+  { id: 'yw87', user: USERS.joon, time: "Sep 13, 2026, 11:02 PM", text: "Here's what I remember." },
+  { id: 'yw88', user: USERS.joon, time: "Sep 13, 2026, 11:02 PM", text: "It started with one word. Usually it's two, but he typed it as one." },
+  { id: 'yw89', user: USERS.joon, time: "Sep 13, 2026, 11:03 PM", text: "I can't remember the word, but the MIN in it was in capitals. Maybe the beginning letter was capitalized too." },
+  { id: 'yw90', user: USERS.joon, time: "Sep 13, 2026, 11:03 PM", text: "Then something like a time zone, all caps." },
+  { id: 'yw91', user: USERS.joon, time: "Sep 13, 2026, 11:04 PM", text: "Then six numbers. He said them fast." },
+  { id: 'yw92', user: USERS.jk, time: "Sep 13, 2026, 11:04 PM", text: "and you don't remember them" },
+  { id: 'yw93', user: USERS.joon, time: "Sep 13, 2026, 11:05 PM", text: "If I did, we wouldn't be having this conversation." },
+  { id: 'yw94', user: USERS.joon, time: "Sep 13, 2026, 11:07 PM", text: "I set up the login. If anyone wants to try.", link: 'mail' },
+  { id: 'yw95', user: USERS.joon, time: "Sep 13, 2026, 11:07 PM", text: "Maybe one of you can." }
 ];
 
 // Last-read marker: the red NEW line appears right after this message, and the channel opens there.
 // To move it later, change the id. Channels not listed open at the bottom as usual.
-const LAST_READ = { general: 'g262x', 'yoongi-where': 'yw4' };
+const LAST_READ = { general: 'g276', 'yoongi-where': 'yw66' };
+
+
+// --- YOONGI'S MAIL (password puzzle) ---
+// The inbox below is encrypted. Only the correct password can unlock it,
+// so neither the password nor the emails can be read from this code.
+const SEALED_MAIL = {"salt":"tf/yLK0WUEl7yemRGpefoQ==","iv":"f1XrFDJkuSz7gWWf","data":"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"};
+const MAIL_ACCOUNT = 'defnotyoongi@gmail.com';
+const MAIL_LAST_SIGN_IN = 'Aug 9, 2026, 11:31 PM';
+const MAIL_STORAGE_KEY = 'eq_mail_unlock';
+
+const b64ToBytes = (b64) => Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+
+async function unsealMail(password) {
+  const enc = new TextEncoder();
+  const base = await crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveKey']);
+  const key = await crypto.subtle.deriveKey(
+    { name: 'PBKDF2', salt: b64ToBytes(SEALED_MAIL.salt), iterations: 250000, hash: 'SHA-256' },
+    base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']
+  );
+  const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b64ToBytes(SEALED_MAIL.iv) }, key, b64ToBytes(SEALED_MAIL.data));
+  return JSON.parse(new TextDecoder().decode(plain));
+}
+
+function MailClient({ onClose }) {
+  const [password, setPassword] = useState('');
+  const [status, setStatus] = useState('idle'); // idle | checking | wrong
+  const [mail, setMail] = useState(null);
+  const [openId, setOpenId] = useState(null);
+  const [showCommons, setShowCommons] = useState(false);
+  const [readIds, setReadIds] = useState([]);
+
+  // Remember a reader who already solved it (per browser only).
+  useEffect(() => {
+    let saved = null;
+    try { saved = localStorage.getItem(MAIL_STORAGE_KEY); } catch (e) {}
+    if (saved) unsealMail(saved).then(setMail).catch(() => {});
+  }, []);
+
+  const tryPassword = async (e) => {
+    e.preventDefault();
+    const guess = password.trim();
+    if (!guess) return;
+    setStatus('checking');
+    try {
+      const data = await unsealMail(guess);
+      try { localStorage.setItem(MAIL_STORAGE_KEY, guess); } catch (err) {}
+      setMail(data);
+      setStatus('idle');
+    } catch (err) {
+      setStatus('wrong');
+    }
+  };
+
+  const openEmail = mail && mail.emails.find(m => m.id === openId);
+
+  return (
+    <div className="fixed inset-0 bg-black/80 z-[110] flex items-center justify-center sm:p-4" onClick={onClose}>
+      <div
+        className="bg-white text-[#1f1f1f] w-full h-full sm:h-[85vh] sm:max-w-3xl sm:rounded-xl overflow-hidden flex flex-col shadow-2xl"
+        style={{ fontFamily: 'Roboto, Arial, sans-serif' }}
+        onClick={e => e.stopPropagation()}
+      >
+        {/* Top bar */}
+        <div className="flex items-center gap-3 px-4 h-14 border-b border-gray-200 flex-shrink-0">
+          {(openEmail || showCommons) ? (
+            <button onClick={() => { if (showCommons) setShowCommons(false); else setOpenId(null); }} className="p-1 -ml-1 text-gray-600 hover:text-black"><ArrowLeft size={22} /></button>
+          ) : (
+            <Mail size={22} className="text-[#c5221f]" />
+          )}
+          <span className="font-medium text-[18px] text-gray-700">{showCommons ? 'The Commons' : 'Mail'}</span>
+          {mail && !openEmail && !showCommons && (
+            <div className="hidden sm:flex items-center gap-2 bg-[#eaf1fb] rounded-full px-4 h-10 flex-1 max-w-sm ml-4 text-gray-500 text-sm"><Search size={16} /> Search mail</div>
+          )}
+          <button onClick={onClose} className="ml-auto p-1 text-gray-500 hover:text-black"><X size={22} /></button>
+        </div>
+
+        {/* LOCKED */}
+        {!mail && (
+          <div className="flex-1 overflow-y-auto flex items-center justify-center p-6 bg-[#f6f8fc]">
+            <form onSubmit={tryPassword} className="w-full max-w-sm bg-white rounded-2xl border border-gray-200 p-8 shadow-sm">
+              <div className="flex justify-center mb-4"><div className="w-14 h-14 rounded-full bg-[#eaf1fb] flex items-center justify-center"><Lock size={24} className="text-[#0b57d0]" /></div></div>
+              <h2 className="text-center text-2xl font-normal mb-1">Welcome</h2>
+              <div className="flex justify-center mb-6">
+                <span className="text-sm border border-gray-300 rounded-full px-3 py-1 text-gray-700">{MAIL_ACCOUNT}</span>
+              </div>
+              <label className="block text-xs text-gray-600 mb-1">Enter your password</label>
+              <input
+                type="password"
+                value={password}
+                onChange={e => { setPassword(e.target.value); if (status === 'wrong') setStatus('idle'); }}
+                autoCapitalize="off" autoCorrect="off" spellCheck="false" autoComplete="off"
+                className={`w-full border rounded-md px-3 py-3 text-base outline-none focus:border-[#0b57d0] focus:ring-1 focus:ring-[#0b57d0] ${status === 'wrong' ? 'border-[#d93025]' : 'border-gray-300'}`}
+              />
+              <div className="h-6 mt-1 text-sm text-[#d93025]">{status === 'wrong' ? 'Incorrect password.' : ''}</div>
+              <button type="submit" disabled={status === 'checking'} className="w-full bg-[#0b57d0] hover:bg-[#0a4ab5] disabled:opacity-60 text-white rounded-full py-2.5 font-medium mt-1">
+                {status === 'checking' ? 'Checking…' : 'Next'}
+              </button>
+              <div className="text-center text-xs text-gray-400 mt-6">Last sign-in: {MAIL_LAST_SIGN_IN}</div>
+            </form>
+          </div>
+        )}
+
+        {/* INBOX */}
+        {mail && !openEmail && !showCommons && (
+          <div className="flex-1 overflow-y-auto">
+            <div className="px-4 py-2 text-sm text-gray-500 border-b border-gray-100">Inbox · {mail.emails.filter(m => m.unread && !readIds.includes(m.id)).length} unread</div>
+            {mail.emails.map(m => {
+              const unread = m.unread && !readIds.includes(m.id);
+              return (
+                <button key={m.id} onClick={() => { setOpenId(m.id); setReadIds(r => r.includes(m.id) ? r : [...r, m.id]); }}
+                  className={`w-full text-left flex items-start gap-3 px-4 py-3 border-b border-gray-100 hover:shadow-sm ${unread ? 'bg-white' : 'bg-[#f2f6fc]'}`}>
+                  <div className="w-9 h-9 rounded-full bg-[#5f6368] text-white flex items-center justify-center text-sm flex-shrink-0">{m.from[0]}</div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-baseline gap-2">
+                      <span className={`truncate text-[15px] ${unread ? 'font-bold text-black' : 'text-gray-700'}`}>{m.from}</span>
+                      <span className={`ml-auto text-xs flex-shrink-0 ${unread ? 'font-bold text-black' : 'text-gray-500'}`}>{m.date}</span>
+                    </div>
+                    <div className={`truncate text-sm ${unread ? 'font-bold text-black' : 'text-gray-700'}`}>{m.subject}</div>
+                    <div className="truncate text-sm text-gray-500">{m.body[0]}</div>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {/* OPEN EMAIL */}
+        {mail && openEmail && !showCommons && (
+          <div className="flex-1 overflow-y-auto px-5 sm:px-8 py-6">
+            <h1 className="text-[22px] sm:text-[26px] font-normal mb-5">{openEmail.subject}</h1>
+            <div className="flex items-start gap-3 mb-6">
+              <div className="w-10 h-10 rounded-full bg-[#1a73e8] text-white flex items-center justify-center flex-shrink-0">{openEmail.from[0]}</div>
+              <div className="min-w-0 text-sm">
+                <div>
+                  <span className="font-bold">{openEmail.from}</span>
+                  {openEmail.via ? (
+                    <span className="text-gray-500"> · <button onClick={() => setShowCommons(true)} className="text-[#0b57d0] hover:underline">{openEmail.via}</button></span>
+                  ) : (
+                    <span className="text-gray-500"> &lt;{openEmail.address}&gt;</span>
+                  )}
+                </div>
+                <div className="text-gray-500">to me · {openEmail.full}</div>
+              </div>
+            </div>
+            <div className="text-[15px] leading-7 space-y-4 whitespace-pre-line">
+              {openEmail.body.map((para, i) => <p key={i}>{para}</p>)}
+            </div>
+          </div>
+        )}
+
+        {/* THE COMMONS PAGE */}
+        {mail && showCommons && (
+          <div className="flex-1 overflow-y-auto bg-[#f7f5f0] flex items-center justify-center p-8 text-center">
+            <div className="max-w-md">
+              <div className="text-[11px] tracking-[0.25em] uppercase text-[#8a8170] mb-3">{mail.commons.subtitle}</div>
+              <div className="text-4xl sm:text-5xl text-[#2b2a27] mb-6" style={{ fontFamily: 'Georgia, serif' }}>{mail.commons.title}</div>
+              <div className="w-12 h-px bg-[#c9c1b1] mx-auto mb-6" />
+              <p className="text-[#55504a] italic mb-10" style={{ fontFamily: 'Georgia, serif' }}>{mail.commons.line}</p>
+              <p className="text-sm text-[#8a8170]">{mail.commons.note}</p>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export default function App() {
   const [activeChannel, setActiveChannel] = useState('general');
   const [activeModal, setActiveModal] = useState(null);
+  const [isMailOpen, setIsMailOpen] = useState(false);
   const [isMembersOpen, setIsMembersOpen] = useState(false);
   const [isChannelsOpen, setIsChannelsOpen] = useState(true);
   const [isTextChannelsCategoryOpen, setIsTextChannelsCategoryOpen] = useState(true);
@@ -496,13 +716,23 @@ export default function App() {
   const lastReadRef = useRef(null);
 
   // Auto-scroll to bottom when changing channels
-  useEffect(() => {
+  const channelOpenedAt = useRef(0);
+  const scrollToStart = () => {
     if (LAST_READ[activeChannel] && lastReadRef.current) {
       lastReadRef.current.scrollIntoView({ behavior: 'auto', block: 'center' });
     } else {
       chatEndRef.current?.scrollIntoView({ behavior: 'auto' });
     }
+  };
+  useEffect(() => {
+    channelOpenedAt.current = Date.now();
+    scrollToStart();
   }, [activeChannel]);
+  // Screenshots load after the jump and push the NEW line down, so re-aim
+  // when an image finishes loading in the first couple of seconds.
+  const handleImageLoaded = () => {
+    if (Date.now() - channelOpenedAt.current < 2500) scrollToStart();
+  };
 
   const currentDisplayData = activeChannel === 'general' ? GENERAL_DATA 
                            : activeChannel === 'welcome' ? WELCOME_DATA 
@@ -728,6 +958,18 @@ export default function App() {
                       {msg.text}
                     </div>
 
+                    {/* Link card (opens Yoongi's mail) */}
+                    {msg.link === 'mail' && (
+                      <button
+                        onClick={() => setIsMailOpen(true)}
+                        className="mt-2 w-fit max-w-[320px] text-left bg-[#2f3136] border-l-4 border-[#0b57d0] rounded px-4 py-3 hover:bg-[#34373c] transition-colors"
+                      >
+                        <div className="text-[#00aff4] font-semibold hover:underline">Mail · Sign in</div>
+                        <div className="text-[#b9bbbe] text-sm mt-1">defnotyoongi@gmail.com</div>
+                        <div className="text-[#72767d] text-xs mt-2 flex items-center gap-1"><Lock size={12} /> Password required</div>
+                      </button>
+                    )}
+
                     {/* Emojis/Reactions */}
                     {msg.reactions && (
                       <div className="flex flex-wrap gap-1.5 mt-2">
@@ -749,7 +991,7 @@ export default function App() {
                         onClick={() => setActiveModal(msg.attachment)}
                         className="mt-3 w-fit rounded cursor-pointer group relative border border-[#202225] overflow-hidden"
                       >
-                        <img src={msg.attachment.url} alt={msg.attachment.alt || "clue"} className="block w-auto h-auto max-w-[260px] max-h-96 opacity-90 group-hover:opacity-60 transition-opacity" />
+                        <img src={msg.attachment.url} onLoad={handleImageLoaded} alt={msg.attachment.alt || "clue"} className="block w-auto h-auto max-w-[260px] max-h-96 opacity-90 group-hover:opacity-60 transition-opacity" />
                         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                           <span className="bg-black/75 text-white font-bold py-2 px-4 rounded text-sm">View File</span>
                         </div>
@@ -813,6 +1055,9 @@ export default function App() {
             ))}
           </div>
         </div>
+
+        {/* YOONGI'S MAIL */}
+        {isMailOpen && <MailClient onClose={() => setIsMailOpen(false)} />}
 
         {/* MODAL / CLUE VIEWER */}
         {activeModal && (
