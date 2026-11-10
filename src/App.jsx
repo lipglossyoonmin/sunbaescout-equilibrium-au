@@ -376,7 +376,22 @@ const GENERAL_DATA = [
   { id: 'g289', user: USERS.jimin, time: "Sep 11, 2026, 02:14 AM", text: "anyone up" },
   { id: 'g290', user: USERS.jin, time: "Sep 11, 2026, 07:02 AM", text: "I am now. Are you okay?" },
   { id: 'g291', user: USERS.jimin, time: "Sep 11, 2026, 09:31 AM", text: "yeah. couldn't sleep" },
-  { id: 'g292', user: USERS.jin, time: "Sep 12, 2026, 05:00 PM", text: "Tomorrow. 7pm. Don't make me come get you.", reactions: [{emoji: "✅", count: 5}] }
+  { id: 'g292', user: USERS.jin, time: "Sep 12, 2026, 05:00 PM", text: "Tomorrow. 7pm. Don't make me come get you.", reactions: [{emoji: "✅", count: 5}] },
+
+  // --- SEP 13 - 15 ---
+  { id: 'g293', user: USERS.jin, time: "Sep 13, 2026, 09:40 PM", text: "Thank you all for coming. There's leftover soup if anyone wants it." },
+  { id: 'g294', user: USERS.tae, time: "Sep 13, 2026, 09:41 PM", text: "i want it" },
+  { id: 'g295', user: USERS.jin, time: "Sep 13, 2026, 09:41 PM", text: "I know. I made it for you." },
+  { id: 'g296', user: USERS.jk, time: "Sep 13, 2026, 09:45 PM", text: "jimin-hyung you left your jacket" },
+  { id: 'g297', user: USERS.jimin, time: "Sep 13, 2026, 09:52 PM", text: "keep it warm for me" },
+
+  { id: 'g298', user: USERS.joon, time: "Sep 14, 2026, 01:20 PM", text: "Thank you for last night. All of you.", reactions: [{emoji: "❤️", count: 5}] },
+  { id: 'g299', user: USERS.hobi, time: "Sep 14, 2026, 03:02 PM", text: "going for a run tomorrow if anyone wants to come" },
+  { id: 'g300', user: USERS.jk, time: "Sep 14, 2026, 03:04 PM", text: "i'll come" },
+  { id: 'g301', user: USERS.hobi, time: "Sep 14, 2026, 03:04 PM", text: "6am" },
+  { id: 'g302', user: USERS.jk, time: "Sep 14, 2026, 03:05 PM", text: "pass" },
+
+  { id: 'g303', user: USERS.jin, time: "Sep 15, 2026, 06:30 PM", text: "Hobi, call me when you see this." }
 ];
 
 const WELCOME_DATA = [
@@ -531,12 +546,41 @@ const YOONGI_WHERE_DATA = [
   { id: 'yw92', user: USERS.jk, time: "Sep 13, 2026, 11:04 PM", text: "and you don't remember them" },
   { id: 'yw93', user: USERS.joon, time: "Sep 13, 2026, 11:05 PM", text: "If I did, we wouldn't be having this conversation." },
   { id: 'yw94', user: USERS.joon, time: "Sep 13, 2026, 11:07 PM", text: "I set up the login. If anyone wants to try.", link: 'mail' },
-  { id: 'yw95', user: USERS.joon, time: "Sep 13, 2026, 11:07 PM", text: "Maybe one of you can." }
+  { id: 'yw95', user: USERS.joon, time: "Sep 13, 2026, 11:07 PM", text: "Maybe one of you can." },
+
+  // --- SEP 15: THE PLAYLIST + THE ARTICLE ---
+  { id: 'yw96', user: USERS.tae, time: "Sep 15, 2026, 08:14 AM", text: "guys" },
+  { id: 'yw97', user: USERS.tae, time: "Sep 15, 2026, 08:14 AM", text: "he added songs to the playlist", attachment: { url: "/round%204%20taehyung%20playlist.png", alt: "shared playlist" } },
+  { id: 'yw98', user: USERS.tae, time: "Sep 15, 2026, 08:15 AM", text: "last night. 3am." },
+  { id: 'yw99', user: USERS.jk, time: "Sep 15, 2026, 08:16 AM", text: "wait WHAT" },
+  { id: 'yw100', user: USERS.jimin, time: "Sep 15, 2026, 08:16 AM", text: "what songs" },
+  { id: 'yw101', user: USERS.tae, time: "Sep 15, 2026, 08:17 AM", text: "u don't have to call. everything's gonna be alright. equilibrium." },
+  { id: 'yw102', user: USERS.jimin, time: "Sep 15, 2026, 08:20 AM", text: "he could've just called" },
+  { id: 'yw103', user: USERS.jin, time: "Sep 15, 2026, 08:21 AM", text: "\"Everything's Gonna Be Alright.\" He's telling us not to worry." },
+  { id: 'yw104', user: USERS.hobi, time: "Sep 15, 2026, 08:22 AM", text: "he's always telling us not to worry" },
+  { id: 'yw105', user: USERS.jk, time: "Sep 15, 2026, 08:23 AM", text: "equilibrium?? like balance?" },
+  { id: 'yw106', user: USERS.joon, time: "Sep 15, 2026, 08:31 AM", text: "I've seen that word." },
+  { id: 'yw107', user: USERS.joon, time: "Sep 15, 2026, 08:31 AM", text: "In his inbox, the night I logged in. A subject line. I wasn't looking at it, I was looking for the landlord." },
+  { id: 'yw108', user: USERS.jk, time: "Sep 15, 2026, 08:32 AM", text: "equilibrium what" },
+  { id: 'yw109', user: USERS.joon, time: "Sep 15, 2026, 08:33 AM", text: "I don't remember. Something with Equilibrium in it." },
+  { id: 'yw110', user: USERS.hobi, time: "Sep 15, 2026, 08:35 AM", text: "the paper on his fridge" },
+  { id: 'yw111', user: USERS.hobi, time: "Sep 15, 2026, 08:35 AM", text: "it said cheongpyeong. the café in cheongpyeong" },
+  { id: 'yw112', user: USERS.jk, time: "Sep 15, 2026, 08:36 AM", text: "searching" },
+  { id: 'yw113', user: USERS.jk, time: "Sep 15, 2026, 08:39 AM", text: "guys" },
+  { id: 'yw114', user: USERS.jk, time: "Sep 15, 2026, 08:39 AM", text: "", link: 'article' },
+  { id: 'yw115', user: USERS.jin, time: "Sep 15, 2026, 08:44 AM", text: "\"Newcomers are required to permanently surrender all communication devices.\"" },
+  { id: 'yw116', user: USERS.tae, time: "Sep 15, 2026, 08:45 AM", text: "then how did he add songs at 3am" },
+  { id: 'yw117', user: USERS.joon, time: "Sep 15, 2026, 08:46 AM", text: "Someone let him." },
+  { id: 'yw118', user: USERS.jimin, time: "Sep 15, 2026, 08:47 AM", text: "\"if a resident ever decided they were fully rested and wanted to leave, would the Institute let them?\"" },
+  { id: 'yw119', user: USERS.hobi, time: "Sep 15, 2026, 08:52 AM", text: "preliminary seminars in the city" },
+  { id: 'yw120', user: USERS.hobi, time: "Sep 15, 2026, 08:52 AM", text: "oh no" },
+  { id: 'yw121', user: USERS.jk, time: "Sep 15, 2026, 08:53 AM", text: "hyung?" },
+  { id: 'yw122', user: USERS.jin, time: "Sep 15, 2026, 08:58 AM", text: "Hobi?" }
 ];
 
 // Last-read marker: the red NEW line appears right after this message, and the channel opens there.
 // To move it later, change the id. Channels not listed open at the bottom as usual.
-const LAST_READ = { general: 'g276', 'yoongi-where': 'yw66' };
+const LAST_READ = { general: 'g292', 'yoongi-where': 'yw95' };
 
 
 // --- YOONGI'S MAIL (password puzzle) ---
@@ -704,10 +748,56 @@ function MailClient({ onClose }) {
   );
 }
 
+// --- THE SEOUL INDEPENDENT ARTICLE ---
+const ARTICLE = {
+  outlet: 'The Seoul Independent',
+  kicker: 'Investigative Feature',
+  title: 'The Equilibrium Institute: Wellness Retreat or Dangerous Fringe Group?',
+  byline: 'By Choi Yeonwoo',
+  date: 'Published: November 3, 2025',
+  dek: 'Deep in the forested mountains of Gapyeong, a sprawling graveyard of bankrupt real estate has quietly transformed into a luxury retreat.',
+  pull: '"The most alluring, and perhaps most alarming, detail? The Institute charges absolutely no fees for this luxury experience."',
+  body: [
+    "Two years ago, the Meridian Villa project was a collection of abandoned concrete shells. Today, it is the pristine, highly secured headquarters of The Equilibrium Institute. On the surface, the Institute bills itself as a radical sanctuary for the modern, burnt-out professional. Their recruitment materials are whisper-quiet and minimalist, promising a designated place to stop, where the exhausted can retreat from the crushing weight of society.",
+    "The Institute's core philosophy is built on absolute surrender to rest. Their doctrine claims that the modern world is a tightly wound spring constantly releasing chaotic energy, and that true peace is found only in reaching a state of total equilibrium. They heavily target high-profile creatives, developers, and industry executives who are buckling under the pressure of their own success, offering them a utopian promise: a place where they can drop their burdens and simply exist.",
+    "According to the few locals willing to speak on the record, Institute members frequently descend into the nearby village to purchase bulk goods, always paying in crisp, untraceable cash. The residents are described by convenience store clerks and market vendors as unfailingly polite, eerily calm, and entirely closed off.",
+    "But the polite smiles end at the property line. The Institute recently erected a wrought-iron gate equipped with state-of-the-art surveillance, effectively severing a public mountain trail and blocking access to an ancestral shrine the village has used for generations. When confronted by angry local leaders, the Institute's legal representation cited the strict, non-negotiable privacy requirements of their members.",
+    "Former applicants who attended preliminary seminars in the city report highly unorthodox practices. Newcomers are required to permanently surrender all communication devices upon entry to the mountain compound, strictly adhering to mandatory isolation periods where even speaking is forbidden to maintain the peace of the collective.",
+    "The Equilibrium Institute insists they are simply providing a much-needed sanctuary for an overworked generation. But as the iron gates remain firmly locked and the surrounding community grows increasingly restless, one question lingers: if a resident ever decided they were fully rested and wanted to leave, would the Institute let them?"
+  ]
+};
+
+function ArticleViewer({ onClose }) {
+  return (
+    <div className="fixed inset-0 bg-black/80 z-[110] flex items-center justify-center sm:p-4" onClick={onClose}>
+      <div className="bg-white text-[#1a1a1a] w-full h-full sm:h-[90vh] sm:max-w-3xl sm:rounded-xl overflow-hidden flex flex-col shadow-2xl" onClick={e => e.stopPropagation()}>
+        <div className="bg-[#16181d] text-white text-center py-3 relative flex-shrink-0">
+          <div className="tracking-[0.18em] text-lg sm:text-2xl font-bold" style={{ fontFamily: 'Georgia, serif' }}>{ARTICLE.outlet.toUpperCase()}</div>
+          <div className="text-[9px] tracking-[0.3em] text-gray-400 mt-0.5">{ARTICLE.kicker.toUpperCase()}</div>
+          <button onClick={onClose} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"><X size={22} /></button>
+        </div>
+        <div className="flex-1 overflow-y-auto px-5 sm:px-10 py-6">
+          <div className="text-[11px] font-bold tracking-[0.2em] text-[#3b3fb6] mb-2">{ARTICLE.kicker.toUpperCase()}</div>
+          <h1 className="text-[28px] sm:text-[40px] leading-tight font-bold mb-3" style={{ fontFamily: 'Georgia, serif' }}>{ARTICLE.title}</h1>
+          <div className="text-sm font-semibold">{ARTICLE.byline}</div>
+          <div className="text-xs text-gray-500 mb-5">{ARTICLE.date}</div>
+          <p className="text-[17px] sm:text-lg text-gray-800 mb-6 pb-6 border-b border-gray-200">{ARTICLE.dek}</p>
+          <blockquote className="border-l-4 border-[#3b3fb6] bg-[#ecebfb] px-5 py-4 mb-6 italic text-lg sm:text-xl" style={{ fontFamily: 'Georgia, serif' }}>{ARTICLE.pull}</blockquote>
+          <div className="space-y-4 text-[15px] leading-7 text-gray-800">
+            {ARTICLE.body.map((p, i) => <p key={i}>{p}</p>)}
+          </div>
+          <div className="text-center text-[10px] tracking-[0.25em] text-gray-400 mt-10 pt-4 border-t border-gray-200">{ARTICLE.outlet.toUpperCase()} · {ARTICLE.kicker.toUpperCase()}</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [activeChannel, setActiveChannel] = useState('general');
   const [activeModal, setActiveModal] = useState(null);
   const [isMailOpen, setIsMailOpen] = useState(false);
+  const [isArticleOpen, setIsArticleOpen] = useState(false);
   const [isMembersOpen, setIsMembersOpen] = useState(false);
   const [isChannelsOpen, setIsChannelsOpen] = useState(true);
   const [isTextChannelsCategoryOpen, setIsTextChannelsCategoryOpen] = useState(true);
@@ -958,6 +1048,18 @@ export default function App() {
                       {msg.text}
                     </div>
 
+                    {/* Link card (opens the article) */}
+                    {msg.link === 'article' && (
+                      <button
+                        onClick={() => setIsArticleOpen(true)}
+                        className="mt-2 w-fit max-w-[340px] text-left bg-[#2f3136] border-l-4 border-[#16181d] rounded px-4 py-3 hover:bg-[#34373c] transition-colors"
+                      >
+                        <div className="text-[#b9bbbe] text-xs mb-1">The Seoul Independent</div>
+                        <div className="text-[#00aff4] font-semibold hover:underline leading-snug">The Equilibrium Institute: Wellness Retreat or Dangerous Fringe Group?</div>
+                        <div className="text-[#b9bbbe] text-sm mt-1 leading-snug">Deep in the forested mountains of Gapyeong, a sprawling graveyard of bankrupt real estate has quietly transformed into a luxury retreat.</div>
+                      </button>
+                    )}
+
                     {/* Link card (opens Yoongi's mail) */}
                     {msg.link === 'mail' && (
                       <button
@@ -1058,6 +1160,7 @@ export default function App() {
 
         {/* YOONGI'S MAIL */}
         {isMailOpen && <MailClient onClose={() => setIsMailOpen(false)} />}
+        {isArticleOpen && <ArticleViewer onClose={() => setIsArticleOpen(false)} />}
 
         {/* MODAL / CLUE VIEWER */}
         {activeModal && (
