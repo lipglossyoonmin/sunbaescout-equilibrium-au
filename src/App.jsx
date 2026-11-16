@@ -575,12 +575,51 @@ const YOONGI_WHERE_DATA = [
   { id: 'yw119', user: USERS.hobi, time: "Sep 15, 2026, 08:52 AM", text: "preliminary seminars in the city" },
   { id: 'yw120', user: USERS.hobi, time: "Sep 15, 2026, 08:52 AM", text: "oh no" },
   { id: 'yw121', user: USERS.jk, time: "Sep 15, 2026, 08:53 AM", text: "hyung?" },
-  { id: 'yw122', user: USERS.jin, time: "Sep 15, 2026, 08:58 AM", text: "Hobi?" }
+  { id: 'yw122', user: USERS.jin, time: "Sep 15, 2026, 08:58 AM", text: "Hobi?" },
+
+  // --- SEP 15 NIGHT: WHILE JIN IS GONE ---
+  { id: 'yw123', user: USERS.jin, time: "Sep 15, 2026, 09:12 PM", text: "He's not answering me either. I'm going to find him." },
+  { id: 'yw124', user: USERS.jk, time: "Sep 15, 2026, 09:12 PM", text: "want me to come" },
+  { id: 'yw125', user: USERS.jin, time: "Sep 15, 2026, 09:13 PM", text: "No. Stay here. I'll let you know." },
+  { id: 'yw126', user: USERS.jk, time: "Sep 15, 2026, 09:30 PM", text: "ok i'm not just sitting here" },
+  { id: 'yw127', user: USERS.jk, time: "Sep 15, 2026, 09:31 PM", text: "the article said the equilibrium institute. they have a website" },
+  { id: 'yw128', user: USERS.jk, time: "Sep 15, 2026, 09:33 PM", text: "", link: 'website' },
+  { id: 'yw129', user: USERS.joon, time: "Sep 15, 2026, 09:36 PM", text: "\"You've already fulfilled your purpose. It's time to enjoy yourself.\"" },
+  { id: 'yw130', user: USERS.joon, time: "Sep 15, 2026, 09:36 PM", text: "That's not a retreat. That's a retirement." },
+  { id: 'yw131', user: USERS.tae, time: "Sep 15, 2026, 09:38 PM", text: "\"some places are meant to be felt, not found\"" },
+  { id: 'yw132', user: USERS.tae, time: "Sep 15, 2026, 09:38 PM", text: "we found it though" },
+  { id: 'yw133', user: USERS.jk, time: "Sep 15, 2026, 09:40 PM", text: "i hit enquire. look what it says" },
+  { id: 'yw134', user: USERS.jk, time: "Sep 15, 2026, 09:40 PM", text: "\"Enquiries are by referral. If someone you love is already with us, they will reach out when they are ready.\"" },
+  { id: 'yw135', user: USERS.jimin, time: "Sep 15, 2026, 09:43 PM", text: "so we just wait until he decides we're allowed to see him" },
+  { id: 'yw136', user: USERS.joon, time: "Sep 15, 2026, 09:48 PM", text: "The article mentioned the village. The shrine, the trail. I've been going through the local community boards." },
+  { id: 'yw137', user: USERS.jk, time: "Sep 15, 2026, 09:49 PM", text: "can they even do that? close a public trail" },
+  { id: 'yw138', user: USERS.jk, time: "Sep 15, 2026, 09:49 PM", text: "jimin-hyung you're the lawyer" },
+  { id: 'yw139', user: USERS.jimin, time: "Sep 15, 2026, 09:51 PM", text: "not that kind. but no. not legally. not for long." },
+  { id: 'yw140', user: USERS.joon, time: "Sep 15, 2026, 09:52 PM", text: "Someone in Cheongpyeong posted this last week.", link: 'board' },
+  { id: 'yw141', user: USERS.tae, time: "Sep 15, 2026, 09:58 PM", text: "\"we lit lanterns for\"" },
+  { id: 'yw142', user: USERS.tae, time: "Sep 15, 2026, 09:58 PM", text: "lit lanterns for what" },
+  { id: 'yw143', user: USERS.joon, time: "Sep 15, 2026, 10:01 PM", text: "I don't know." },
+  { id: 'yw144', user: USERS.jk, time: "Sep 15, 2026, 10:03 PM", text: "\"bring your people home\" \"the ones who are still burning\"" },
+  { id: 'yw145', user: USERS.jk, time: "Sep 15, 2026, 10:03 PM", text: "first saturday of november. gathering night. that's what this is for" },
+  { id: 'yw146', user: USERS.jimin, time: "Sep 15, 2026, 10:05 PM", text: "he's not going to invite us. he didn't even tell us he was going" },
+  { id: 'yw147', user: USERS.jk, time: "Sep 15, 2026, 10:06 PM", text: "he told you something. you just won't say what" },
+  { id: 'yw148', user: USERS.jimin, time: "Sep 15, 2026, 10:06 PM", text: "are we doing this again" },
+  { id: 'yw149', user: USERS.jk, time: "Sep 15, 2026, 10:07 PM", text: "you were the last one with him and you sat on it for two months" },
+  { id: 'yw150', user: USERS.jimin, time: "Sep 15, 2026, 10:08 PM", text: "and namjoon sat on a video call. go yell at him" },
+  { id: 'yw151', user: USERS.joon, time: "Sep 15, 2026, 10:08 PM", text: "That's fair." },
+  { id: 'yw152', user: USERS.jk, time: "Sep 15, 2026, 10:09 PM", text: "namjoon-hyung TOLD us. you're still doing it" },
+  { id: 'yw153', user: USERS.jimin, time: "Sep 15, 2026, 10:10 PM", text: "you don't get to decide what's mine to tell" },
+  { id: 'yw154', user: USERS.jk, time: "Sep 15, 2026, 10:10 PM", text: "it's not about you" },
+  { id: 'yw155', user: USERS.jimin, time: "Sep 15, 2026, 10:11 PM", text: "apparently it is" },
+  { id: 'yw156', user: USERS.tae, time: "Sep 15, 2026, 10:14 PM", text: "jin-hyung would've stopped this by now" },
+  { id: 'yw157', user: USERS.tae, time: "Sep 15, 2026, 10:14 PM", text: "so i guess it's me" },
+  { id: 'yw158', user: USERS.tae, time: "Sep 15, 2026, 10:15 PM", text: "he answered me. not either of you. so maybe stop acting like you know him better than anyone" },
+  { id: 'yw159', user: USERS.joon, time: "Sep 15, 2026, 10:31 PM", text: "Jin isn't answering either." }
 ];
 
 // Last-read marker: the red NEW line appears right after this message, and the channel opens there.
 // To move it later, change the id. Channels not listed open at the bottom as usual.
-const LAST_READ = { general: 'g292', 'yoongi-where': 'yw95' };
+const LAST_READ = { general: 'g303', 'yoongi-where': 'yw122' };
 
 
 // --- YOONGI'S MAIL (password puzzle) ---
@@ -793,11 +832,143 @@ function ArticleViewer({ onClose }) {
   );
 }
 
+// --- THE INSTITUTE WEBSITE ---
+function useSerifFont() {
+  useEffect(() => {
+    if (document.getElementById('eq-serif-font')) return;
+    const l = document.createElement('link');
+    l.id = 'eq-serif-font'; l.rel = 'stylesheet';
+    l.href = 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap';
+    document.head.appendChild(l);
+  }, []);
+}
+
+function WebsiteViewer({ onClose }) {
+  useSerifFont();
+  const [showEnquiry, setShowEnquiry] = useState(false);
+  const scrollRef = useRef(null);
+  const go = (id) => {
+    const el = scrollRef.current?.querySelector('#' + id);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  const serif = { fontFamily: "'Libre Baskerville', Georgia, serif" };
+  const caps = "uppercase tracking-[0.22em] text-[11px] sm:text-xs font-semibold";
+  const enquire = () => { go('eq-pause'); setShowEnquiry(true); };
+  return (
+    <div className="fixed inset-0 bg-black/80 z-[110] flex items-center justify-center sm:p-4" onClick={onClose}>
+      <div ref={scrollRef} className="bg-[#f1eee8] text-[#2b3a33] w-full h-full sm:h-[92vh] sm:max-w-5xl sm:rounded-xl overflow-y-auto shadow-2xl relative" onClick={e => e.stopPropagation()}>
+        <button onClick={onClose} className="fixed sm:absolute right-3 top-3 z-10 w-9 h-9 rounded-full bg-[#2b3a33]/80 text-white flex items-center justify-center"><X size={18} /></button>
+
+        <header className="flex items-center justify-between px-6 sm:px-12 py-6 border-b border-[#d9d4ca]">
+          <div className="font-bold leading-tight text-[15px] sm:text-lg pr-10 sm:pr-0" style={serif}>THE EQUILIBRIUM<br />INSTITUTE</div>
+          <nav className="hidden sm:flex gap-10 items-center mr-10">
+            <button onClick={() => go('eq-philosophy')} className={caps}>Philosophy</button>
+            <button onClick={() => go('eq-setting')} className={caps}>The Setting</button>
+            <button onClick={enquire} className={caps + " border-b-2 border-[#2b3a33] pb-1"}>Enquire</button>
+          </nav>
+        </header>
+
+        <section className="px-6 sm:px-12 pt-16 sm:pt-24 pb-12">
+          <div className={caps + " text-[#7a7a72] mb-8"}>A private world beyond the ordinary</div>
+          <h1 className="text-[52px] leading-[1.05] sm:text-[96px] sm:leading-[1.08] mb-12" style={serif}>The art of<br />being elsewhere.</h1>
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-8">
+            <p className="text-[#55594f] text-base sm:text-xl leading-relaxed" style={serif}>A sanctuary for the uncommon pursuit of stillness.<br />Architecture, landscape, and ritual in perfect balance.</p>
+            <button onClick={() => go('eq-setting')} className={caps + " border-b-2 border-[#2b3a33] pb-2 self-start sm:self-auto flex items-center gap-4"}>Explore the setting <span>↗</span></button>
+          </div>
+        </section>
+
+        <section id="eq-setting" className="mt-6">
+          <img src="/institute-landscape.jpg" alt="The setting" className="w-full h-[260px] sm:h-[520px] object-cover block" />
+        </section>
+
+        <section id="eq-philosophy" className="px-6 sm:px-12 py-20 sm:py-32 border-t border-[#d9d4ca] mt-16 sm:mt-24 grid sm:grid-cols-[1fr_2fr] gap-8">
+          <div className={caps + " text-[#7a7a72]"}>01 / The Philosophy</div>
+          <div>
+            <h2 className="text-3xl sm:text-4xl leading-snug mb-8" style={serif}>Less noise.<br />More meaning.</h2>
+            <p className="text-[#55594f] text-base sm:text-xl leading-relaxed" style={serif}>A place conceived around the luxury of free time.<br />You've already fulfilled your purpose. It's time to enjoy yourself.</p>
+          </div>
+        </section>
+
+        <section id="eq-pause" className="bg-[#2c3b34] text-[#f1eee8] px-6 sm:px-12 py-24 sm:py-32">
+          <div className={caps + " text-[#c9cfc6] mb-8"}>An invitation to pause</div>
+          <h2 className="text-3xl sm:text-4xl leading-snug mb-8" style={serif}>Some places are meant<br />to be felt, not found.</h2>
+          <p className="text-base sm:text-xl mb-10" style={serif}>For a private conversation about the vision, get in touch.</p>
+          {!showEnquiry ? (
+            <button onClick={() => setShowEnquiry(true)} className={caps + " border-b-2 border-[#f1eee8] pb-2 flex items-center gap-4"}>Begin a conversation <span>↗</span></button>
+          ) : (
+            <p className="italic text-[#c9cfc6] text-base sm:text-lg max-w-xl leading-relaxed" style={serif}>Enquiries are by referral. If someone you love is already with us, they will reach out when they are ready.</p>
+          )}
+        </section>
+
+        <footer className="bg-[#e7e3db] px-6 sm:px-12 py-10">
+          <div className={caps}>The Equilibrium Institute</div>
+        </footer>
+      </div>
+    </div>
+  );
+}
+
+// --- CHEONGPYEONG COMMUNITY BOARD + THE COMMONS NEWSLETTER ---
+function BoardViewer({ onClose }) {
+  const serif = { fontFamily: "Georgia, serif" };
+  const H = ({ children }) => <h3 className="font-bold text-[17px] mt-6 mb-2" style={serif}>{children}</h3>;
+  return (
+    <div className="fixed inset-0 bg-black/80 z-[110] flex items-center justify-center sm:p-4" onClick={onClose}>
+      <div className="bg-[#f4f5f7] text-[#1f2328] w-full h-full sm:h-[92vh] sm:max-w-2xl sm:rounded-xl overflow-hidden flex flex-col shadow-2xl" onClick={e => e.stopPropagation()}>
+        <div className="bg-[#2f6f4f] text-white flex items-center px-4 h-12 flex-shrink-0">
+          <span className="font-bold">Cheongpyeong Neighbors</span>
+          <span className="ml-2 text-white/70 text-sm hidden sm:inline">· Community board</span>
+          <button onClick={onClose} className="ml-auto"><X size={20} /></button>
+        </div>
+        <div className="flex-1 overflow-y-auto p-3 sm:p-5">
+          <div className="bg-white rounded-lg border border-gray-200 p-4 sm:p-5">
+            <div className="text-xs text-gray-500 mb-1">Local talk · posted by <span className="font-semibold text-gray-700">pinegrove_mom</span> · Sep 8, 2026</div>
+            <h2 className="font-bold text-lg mb-2">they leave these at the café now</h2>
+            <p className="text-[15px] mb-4">Found a stack of these by the register at the new café by the lake (the one THEY run). Is anyone else creeped out? Who are they lighting lanterns for??</p>
+
+            <div className="bg-[#fbfaf6] border border-[#e4e0d6] shadow-sm rounded px-5 sm:px-8 py-6 text-[14.5px] leading-6 text-[#2a2a2a]" style={serif}>
+              <div className="text-center text-xl sm:text-2xl font-bold">Seasonal Notes from The Commons</div>
+              <div className="text-center italic text-[#6f6a60] mb-2">Autumn</div>
+              <H>From the Long House</H>
+              <p>The first pine nut harvest is in, and it's the best we've had. Thank you to everyone who flowed in the grove this year. There are three hundred jars of pine nuts in the cellar and Halmeoni Oksun says she is not shelling one more.</p>
+              <p className="mt-2">The café in Cheongpyeong is now open Sundays. The guesthouse is booked through spring. What a season.</p>
+              <p className="mt-2">This month's recipe: Oksun's Pine Nut Porridge (below).</p>
+              <H>Welcomes</H>
+              <p>Please give a warm porch-wave to our newest residents: Kang Dohyun, the Bae family, Seo Yerin, and Han Mirae, who arrived with her two cats and immediately became the most popular person on Pine Row.</p>
+              <p className="mt-2">And a special welcome to Joo Wonseok, who has finished his first season and is now officially one of our Unwinders! Wonseok has been working hard on his presentation, which we hear includes a joke about the clicker. We can't wait for his friends to see it.</p>
+              <H>Lanterns This Season</H>
+              <p>We lit lanterns for:</p>
+              <p>Park Jaehyuk · Yoon Kyungja · Mr. and Mrs. Choi, together, as they wanted · Ha Junseo · Ko Eunji · Ibrahim · Nam Hyeri · Shin Minho</p>
+              <p className="mt-2">Thank you for the warmth you gave us while you were here. You did a wonderful job.</p>
+              <H>Gathering Night</H>
+              <p>Gathering Night will be held this year on the first Saturday of November.</p>
+              <p className="mt-2">As always, every household is invited to host. Bring your people home: the ones you've been carrying, the ones who are still burning, the ones you most want to feel what you've found here. Keepers will deliver makgeolli and supper to every porch by six.</p>
+              <p className="mt-2">Please have your lanterns ready.</p>
+              <p className="mt-2">It's going to be a beautiful night.</p>
+              <p className="italic text-center text-[#6f6a60] mt-6">Quiet Hour begins at eight. Rest well.</p>
+              <H>Oksun's Pine Nut Porridge (잣죽)</H>
+              <p>Soak a cup of rice overnight. Grind it with half a cup of pine nuts and three cups of water until smooth. Warm it slowly over low heat, stirring the whole time, until it thickens. Salt at the table, not before. Don't rush it. Nothing here is in a hurry.</p>
+            </div>
+
+            <div className="mt-5 border-t border-gray-200 pt-3 space-y-3 text-[14px]">
+              <div><span className="font-semibold">hanok_grandpa</span> <span className="text-gray-400 text-xs">· Sep 8</span><p>They closed the shrine trail and now they want us to read their newsletter.</p></div>
+              <div><span className="font-semibold">lakeside_rentals</span> <span className="text-gray-400 text-xs">· Sep 9</span><p>The coffee is good though.</p></div>
+              <div><span className="font-semibold">pinegrove_mom</span> <span className="text-gray-400 text-xs">· Sep 9</span><p>That's how they get you.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [activeChannel, setActiveChannel] = useState('general');
   const [activeModal, setActiveModal] = useState(null);
   const [isMailOpen, setIsMailOpen] = useState(false);
   const [isArticleOpen, setIsArticleOpen] = useState(false);
+  const [isWebsiteOpen, setIsWebsiteOpen] = useState(false);
+  const [isBoardOpen, setIsBoardOpen] = useState(false);
   const [isMembersOpen, setIsMembersOpen] = useState(false);
   const [isChannelsOpen, setIsChannelsOpen] = useState(true);
   const [isTextChannelsCategoryOpen, setIsTextChannelsCategoryOpen] = useState(true);
@@ -1048,6 +1219,24 @@ export default function App() {
                       {msg.text}
                     </div>
 
+                    {/* Link card (opens the Institute website) */}
+                    {msg.link === 'website' && (
+                      <button onClick={() => setIsWebsiteOpen(true)} className="mt-2 w-fit max-w-[340px] text-left bg-[#2f3136] border-l-4 border-[#2c3b34] rounded px-4 py-3 hover:bg-[#34373c] transition-colors">
+                        <div className="text-[#b9bbbe] text-xs mb-1">The Equilibrium Institute</div>
+                        <div className="text-[#00aff4] font-semibold hover:underline leading-snug">The art of being elsewhere.</div>
+                        <div className="text-[#b9bbbe] text-sm mt-1 leading-snug">A sanctuary for the uncommon pursuit of stillness.</div>
+                      </button>
+                    )}
+
+                    {/* Link card (opens the community board post) */}
+                    {msg.link === 'board' && (
+                      <button onClick={() => setIsBoardOpen(true)} className="mt-2 w-fit max-w-[340px] text-left bg-[#2f3136] border-l-4 border-[#2f6f4f] rounded px-4 py-3 hover:bg-[#34373c] transition-colors">
+                        <div className="text-[#b9bbbe] text-xs mb-1">Cheongpyeong Neighbors</div>
+                        <div className="text-[#00aff4] font-semibold hover:underline leading-snug">they leave these at the café now</div>
+                        <div className="text-[#b9bbbe] text-sm mt-1 leading-snug">Found a stack of these by the register at the new café by the lake...</div>
+                      </button>
+                    )}
+
                     {/* Link card (opens the article) */}
                     {msg.link === 'article' && (
                       <button
@@ -1161,6 +1350,8 @@ export default function App() {
         {/* YOONGI'S MAIL */}
         {isMailOpen && <MailClient onClose={() => setIsMailOpen(false)} />}
         {isArticleOpen && <ArticleViewer onClose={() => setIsArticleOpen(false)} />}
+        {isWebsiteOpen && <WebsiteViewer onClose={() => setIsWebsiteOpen(false)} />}
+        {isBoardOpen && <BoardViewer onClose={() => setIsBoardOpen(false)} />}
 
         {/* MODAL / CLUE VIEWER */}
         {activeModal && (
