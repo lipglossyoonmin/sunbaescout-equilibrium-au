@@ -613,7 +613,7 @@ const YOONGI_WHERE_DATA = [
   { id: 'yw155', user: USERS.jimin, time: "Sep 15, 2026, 10:11 PM", text: "apparently it is" },
   { id: 'yw156', user: USERS.tae, time: "Sep 15, 2026, 10:14 PM", text: "jin-hyung would've stopped this by now" },
   { id: 'yw157', user: USERS.tae, time: "Sep 15, 2026, 10:14 PM", text: "so i guess it's me" },
-  { id: 'yw158', user: USERS.tae, time: "Sep 15, 2026, 10:15 PM", text: "he answered me. not either of you. so maybe stop acting like you know him better than anyone" },
+  { id: 'yw158', user: USERS.tae, time: "Sep 15, 2026, 10:15 PM", text: "he answered me. not you two. maybe it's your bad attitudes keeping him away." },
   { id: 'yw159', user: USERS.joon, time: "Sep 15, 2026, 10:31 PM", text: "Jin isn't answering either." }
 ];
 
