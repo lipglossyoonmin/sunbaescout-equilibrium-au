@@ -391,7 +391,8 @@ const GENERAL_DATA = [
   { id: 'g301', user: USERS.hobi, time: "Sep 14, 2026, 03:04 PM", text: "6am" },
   { id: 'g302', user: USERS.jk, time: "Sep 14, 2026, 03:05 PM", text: "pass" },
 
-  { id: 'g303', user: USERS.jin, time: "Sep 15, 2026, 06:30 PM", text: "Hobi, call me when you see this." }
+  { id: 'g303', user: USERS.jin, time: "Sep 15, 2026, 06:30 PM", text: "Hobi, call me when you see this." },
+  { id: 'g304', user: USERS.joon, time: "Sep 16, 2026, 09:05 AM", text: "It's been really quiet in here.", reactions: [{emoji: "😢", count: 5}] }
 ];
 
 const WELCOME_DATA = [
@@ -614,12 +615,58 @@ const YOONGI_WHERE_DATA = [
   { id: 'yw156', user: USERS.tae, time: "Sep 15, 2026, 10:14 PM", text: "jin-hyung would've stopped this by now" },
   { id: 'yw157', user: USERS.tae, time: "Sep 15, 2026, 10:14 PM", text: "so i guess it's me" },
   { id: 'yw158', user: USERS.tae, time: "Sep 15, 2026, 10:15 PM", text: "he answered me. not you two. maybe it's your bad attitudes keeping him away." },
-  { id: 'yw159', user: USERS.joon, time: "Sep 15, 2026, 10:31 PM", text: "Jin isn't answering either." }
+  { id: 'yw159', user: USERS.joon, time: "Sep 15, 2026, 10:31 PM", text: "Jin isn't answering either." },
+
+  // --- SEP 15, LATE: YOONGI'S APARTMENT ---
+  { id: 'yw160', user: USERS.jin, time: "Sep 15, 2026, 10:44 PM", text: "I found him. He's at Yoongi's." },
+  { id: 'yw161', user: USERS.jin, time: "Sep 15, 2026, 10:44 PM", text: "I'm sorry. I was driving, and then I didn't want to be on my phone. I was sitting with him." },
+  { id: 'yw162', user: USERS.jk, time: "Sep 15, 2026, 10:45 PM", text: "is he ok" },
+  { id: 'yw163', user: USERS.jin, time: "Sep 15, 2026, 10:45 PM", text: "He's okay. He's here." },
+  { id: 'yw164', user: USERS.jin, time: "Sep 15, 2026, 10:46 PM", text: "I found Hobi. And something else. But he needs to say something first. I told him he could." },
+  { id: 'yw165', user: USERS.hobi, time: "Sep 15, 2026, 10:51 PM", text: "in march i took him to a breathwork class" },
+  { id: 'yw166', user: USERS.hobi, time: "Sep 15, 2026, 10:51 PM", text: "he'd been so tired. i thought it would help" },
+  { id: 'yw167', user: USERS.hobi, time: "Sep 15, 2026, 10:52 PM", text: "at the end they played a recording. some man talking about how everything is unwinding" },
+  { id: 'yw168', user: USERS.hobi, time: "Sep 15, 2026, 10:53 PM", text: "after, he said it was the first time his head had been quiet in years. i was so happy. i thought i finally helped" },
+  { id: 'yw169', user: USERS.hobi, time: "Sep 15, 2026, 10:54 PM", text: "the article said \"preliminary seminars in the city.\" that was it. i took him there" },
+  { id: 'yw170', user: USERS.jk, time: "Sep 15, 2026, 10:55 PM", text: "you knew about the institute??" },
+  { id: 'yw171', user: USERS.hobi, time: "Sep 15, 2026, 10:55 PM", text: "no. it didn't have a name. it was a breathwork class" },
+  { id: 'yw172', user: USERS.jimin, time: "Sep 15, 2026, 10:57 PM", text: "on the 15th i asked if he said anything weird and you said no" },
+  { id: 'yw173', user: USERS.hobi, time: "Sep 15, 2026, 10:59 PM", text: "he texted me at 2am that none of it meant anything and i told him to go to sleep" },
+  { id: 'yw174', user: USERS.hobi, time: "Sep 15, 2026, 10:59 PM", text: "i didn't want it to be weird. so it wasn't" },
+  { id: 'yw175', user: USERS.joon, time: "Sep 15, 2026, 11:00 PM", text: "Why did you disappear this morning instead of telling us?" },
+  { id: 'yw176', user: USERS.hobi, time: "Sep 15, 2026, 11:01 PM", text: "i came here. i don't know why. i thought maybe" },
+  { id: 'yw177', user: USERS.jk, time: "Sep 15, 2026, 11:02 PM", text: "hyung you took him there" },
+  { id: 'yw178', user: USERS.jin, time: "Sep 15, 2026, 11:02 PM", text: "Jungkook." },
+  { id: 'yw179', user: USERS.jin, time: "Sep 15, 2026, 11:04 PM", text: "I told Hobi this already. I'm saying it here too." },
+  { id: 'yw180', user: USERS.jin, time: "Sep 15, 2026, 11:04 PM", text: "In July, Yoongi asked me, \"If I went away for a while, you'd look after them, right?\" I said \"I always do.\" I didn't ask why." },
+  { id: 'yw181', user: USERS.jin, time: "Sep 15, 2026, 11:05 PM", text: "And the chicken. I thought it was strange. Five years, and he pays it back out of nowhere. I made it a joke instead of asking." },
+  { id: 'yw182', user: USERS.jin, time: "Sep 15, 2026, 11:06 PM", text: "None of us saw it. Or we all saw a little and none of us said anything. That isn't Hobi's fault.", reactions: [{emoji: "❤️", count: 4}] },
+  { id: 'yw183', user: USERS.hobi, time: "Sep 15, 2026, 11:14 PM", text: "there's a folder on his desk. jin-hyung found it" },
+  { id: 'yw184', user: USERS.jin, time: "Sep 15, 2026, 11:15 PM", text: "", attachment: { url: "/round%206%20yoongi%20intake.jpg", alt: "yoongi intake" } },
+  { id: 'yw185', user: USERS.hobi, time: "Sep 15, 2026, 11:17 PM", text: "he wrote my name" },
+  { id: 'yw186', user: USERS.jimin, time: "Sep 15, 2026, 11:19 PM", text: "\"I want to be enough\"" },
+  { id: 'yw187', user: USERS.jimin, time: "Sep 15, 2026, 11:19 PM", text: "he crossed it out" },
+  { id: 'yw188', user: USERS.jk, time: "Sep 15, 2026, 11:21 PM", text: "\"always fine. works out when he's not fine\"" },
+  { id: 'yw189', user: USERS.jk, time: "Sep 15, 2026, 11:21 PM", text: "ok" },
+  { id: 'yw190', user: USERS.joon, time: "Sep 15, 2026, 11:23 PM", text: "He left the emergency contact blank." },
+  { id: 'yw191', user: USERS.jk, time: "Sep 15, 2026, 11:24 PM", text: "\"mom's house - ask\" what does that mean" },
+  { id: 'yw192', user: USERS.jin, time: "Sep 15, 2026, 11:26 PM", text: "I don't know." },
+  { id: 'yw193', user: USERS.hobi, time: "Sep 15, 2026, 11:27 PM", text: "\"trying\"" },
+  { id: 'yw194', user: USERS.hobi, time: "Sep 15, 2026, 11:27 PM", text: "that's what he wanted to put down" },
+  { id: 'yw195', user: USERS.tae, time: "Sep 15, 2026, 11:40 PM", text: "i kept looking while you were all talking" },
+  { id: 'yw196', user: USERS.tae, time: "Sep 15, 2026, 11:41 PM", text: "", attachment: { url: "/round%206%20taehyung%20forum.jpg", alt: "taehyung forum" } },
+  { id: 'yw197', user: USERS.joon, time: "Sep 15, 2026, 11:45 PM", text: "\"The money is gone, man.\"" },
+  { id: 'yw198', user: USERS.jimin, time: "Sep 15, 2026, 11:46 PM", text: "\"I basically signed over my entire IRP account.\" he wrote IRP on his form" },
+  { id: 'yw199', user: USERS.jk, time: "Sep 15, 2026, 11:48 PM", text: "\"a handwritten letter from him saying he was in deep flow\"" },
+  { id: 'yw200', user: USERS.tae, time: "Sep 15, 2026, 11:50 PM", text: "\"they just stay inside\"" },
+  { id: 'yw201', user: USERS.tae, time: "Sep 15, 2026, 11:50 PM", text: "\"nothing. i think they literally just do nothing.\"" },
+  { id: 'yw202', user: USERS.hobi, time: "Sep 15, 2026, 11:53 PM", text: "he wrote trying" },
+  { id: 'yw203', user: USERS.hobi, time: "Sep 15, 2026, 11:53 PM", text: "he wants to stop" }
 ];
 
 // Last-read marker: the red NEW line appears right after this message, and the channel opens there.
 // To move it later, change the id. Channels not listed open at the bottom as usual.
-const LAST_READ = { general: 'g303', 'yoongi-where': 'yw122' };
+const LAST_READ = { general: 'g303', 'yoongi-where': 'yw159' };
 
 
 // --- YOONGI'S MAIL (password puzzle) ---
