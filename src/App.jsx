@@ -661,12 +661,88 @@ const YOONGI_WHERE_DATA = [
   { id: 'yw200', user: USERS.tae, time: "Sep 15, 2026, 11:50 PM", text: "\"they just stay inside\"" },
   { id: 'yw201', user: USERS.tae, time: "Sep 15, 2026, 11:50 PM", text: "\"nothing. i think they literally just do nothing.\"" },
   { id: 'yw202', user: USERS.hobi, time: "Sep 15, 2026, 11:53 PM", text: "he wrote trying" },
-  { id: 'yw203', user: USERS.hobi, time: "Sep 15, 2026, 11:53 PM", text: "he wants to stop" }
+  { id: 'yw203', user: USERS.hobi, time: "Sep 15, 2026, 11:53 PM", text: "he wants to stop" },
+
+  // --- SEP 17: THE TRUST, THE CALL, THE PLAN ---
+  { id: 'yw204', user: USERS.jimin, time: "Sep 17, 2026, 09:12 AM", text: "he emailed me" },
+  { id: 'yw205', user: USERS.jimin, time: "Sep 17, 2026, 09:12 AM", text: "last night. 3:04am" },
+  { id: 'yw206', user: USERS.jk, time: "Sep 17, 2026, 09:13 AM", text: "WHAT" },
+  { id: 'yw207', user: USERS.jin, time: "Sep 17, 2026, 09:13 AM", text: "What did he say?" },
+  { id: 'yw208', user: USERS.jimin, time: "Sep 17, 2026, 09:15 AM", text: "\"you're the only lawyer i trust. can you look at this before i sign it\"", attachment: { url: "/round%207%20jimin%20trust%20agreement.jpg", alt: "trust agreement" } },
+  { id: 'yw209', user: USERS.joon, time: "Sep 17, 2026, 09:20 AM", text: "Section 7." },
+  { id: 'yw210', user: USERS.jimin, time: "Sep 17, 2026, 09:21 AM", text: "yeah" },
+  { id: 'yw211', user: USERS.jimin, time: "Sep 17, 2026, 09:23 AM", text: "\"rejoining\" means dying. if he dies, everything in that account goes to them. not his mom. them." },
+  { id: 'yw212', user: USERS.jimin, time: "Sep 17, 2026, 09:24 AM", text: "he can change it, but it takes 180 days. same as getting his money out" },
+  { id: 'yw213', user: USERS.jimin, time: "Sep 17, 2026, 09:25 AM", text: "and this one is for more. \"additional contribution.\" his retirement. maybe his mom's house" },
+  { id: 'yw214', user: USERS.jin, time: "Sep 17, 2026, 09:27 AM", text: "\"Mom's house – ask.\"" },
+  { id: 'yw215', user: USERS.hobi, time: "Sep 17, 2026, 09:28 AM", text: "the trust paid his rent" },
+  { id: 'yw216', user: USERS.jimin, time: "Sep 17, 2026, 09:29 AM", text: "6.3. they pay his bills until december. after that nothing does" },
+  { id: 'yw217', user: USERS.jk, time: "Sep 17, 2026, 09:30 AM", text: "so what happens in january" },
+  { id: 'yw218', user: USERS.jimin, time: "Sep 17, 2026, 09:31 AM", text: "he gets used to having nothing to go back to" },
+  { id: 'yw219', user: USERS.tae, time: "Sep 17, 2026, 09:33 AM", text: "did you answer him" },
+  { id: 'yw220', user: USERS.jimin, time: "Sep 17, 2026, 09:35 AM", text: "i told him to put his mom as beneficiary. it's allowed. i asked him to just do that one thing" },
+  { id: 'yw221', user: USERS.jimin, time: "Sep 17, 2026, 09:35 AM", text: "he said \"haha i know, i'll think about it 🙂\"" },
+  { id: 'yw222', user: USERS.jimin, time: "Sep 17, 2026, 09:36 AM", text: "with a smiley face" },
+  { id: 'yw223', user: USERS.joon, time: "Sep 17, 2026, 09:40 AM", text: "Has anyone talked to his mother?" },
+  { id: 'yw224', user: USERS.jin, time: "Sep 17, 2026, 09:41 AM", text: "No." },
+  { id: 'yw225', user: USERS.jimin, time: "Sep 17, 2026, 09:44 AM", text: "i'll do it. i know what to ask" },
+  { id: 'yw226', user: USERS.jin, time: "Sep 17, 2026, 09:44 AM", text: "Are you sure?" },
+  { id: 'yw227', user: USERS.jimin, time: "Sep 17, 2026, 09:45 AM", text: "yes" },
+  { id: 'yw228', user: USERS.jimin, time: "Sep 17, 2026, 01:20 PM", text: "i talked to her" },
+  { id: 'yw229', user: USERS.jimin, time: "Sep 17, 2026, 01:20 PM", text: "tang is good. fat and spoiled" },
+  { id: 'yw230', user: USERS.jimin, time: "Sep 17, 2026, 01:21 PM", text: "he told her it was a retreat. she said he sounded rested. she was happy for him" },
+  { id: 'yw231', user: USERS.jimin, time: "Sep 17, 2026, 01:22 PM", text: "he didn't say anything about the house. or a trust. she didn't know what i was talking about" },
+  { id: 'yw232', user: USERS.jimin, time: "Sep 17, 2026, 01:22 PM", text: "i didn't tell her" },
+  { id: 'yw233', user: USERS.jin, time: "Sep 17, 2026, 01:24 PM", text: "Good. Not yet." },
+  { id: 'yw234', user: USERS.tae, time: "Sep 17, 2026, 01:26 PM", text: "she thinks he's on vacation" },
+  { id: 'yw235', user: USERS.joon, time: "Sep 17, 2026, 10:30 PM", text: "I want to put everything in one place." },
+  { id: 'yw236', user: USERS.joon, time: "Sep 17, 2026, 10:34 PM", text: "He's at the Commons, run by the Equilibrium Institute, outside Cheongpyeong. He arrived Aug 8. His Keeper is Lee Sunhee.\nPhones go in a room from 8pm to 8am. Someone gives his back when he asks. That's how he called me, added the songs, and emailed Jimin.\nWe're in his email. The Trust paid his rent through December. His account opened the day he arrived. Withdrawals take 180 days.\nIf he signs Schedule B, his retirement goes in. Maybe his mom's house. If he dies, all of it goes to them.\nThe ex-members say the money doesn't come back, and the people who stay longest stop coming outside.\nGathering Night is the first Saturday of November. They invite families." },
+  { id: 'yw237', user: USERS.jk, time: "Sep 17, 2026, 10:38 PM", text: "so we go get him" },
+  { id: 'yw238', user: USERS.jin, time: "Sep 17, 2026, 10:38 PM", text: "Jungkook." },
+  { id: 'yw239', user: USERS.jk, time: "Sep 17, 2026, 10:39 PM", text: "what. we know where he is" },
+  { id: 'yw240', user: USERS.hobi, time: "Sep 17, 2026, 10:40 PM", text: "there's a gate" },
+  { id: 'yw241', user: USERS.jk, time: "Sep 17, 2026, 10:41 PM", text: "then we wait at the café. he has to come down sometime" },
+  { id: 'yw242', user: USERS.joon, time: "Sep 17, 2026, 10:44 PM", text: "We can't drag a grown man out of a place he chose." },
+  { id: 'yw243', user: USERS.jimin, time: "Sep 17, 2026, 10:46 PM", text: "legally, he's allowed to be there. we can't make him leave. but we can make sure he doesn't sign" },
+  { id: 'yw244', user: USERS.tae, time: "Sep 17, 2026, 10:48 PM", text: "so we go" },
+  { id: 'yw245', user: USERS.jin, time: "Sep 17, 2026, 10:52 PM", text: "We go. Saturday. All of us.", reactions: [{emoji: "✅", count: 5}] },
+  { id: 'yw246', user: USERS.jk, time: "Sep 17, 2026, 10:53 PM", text: "i'll drive" }
 ];
+
+// --- YOONGI POPS IN (appears live once the reader finishes #yoongi-where) ---
+const YOONGI_POPIN = [
+  { id: 'gy1', user: USERS.yoongi, time: "Sep 17, 2026, 11:47 PM", text: "hey" },
+  { id: 'gy2', user: USERS.yoongi, time: "Sep 17, 2026, 11:47 PM", text: "sorry i've been so quiet" },
+  { id: 'gy3', user: USERS.jk, time: "Sep 17, 2026, 11:47 PM", text: "HYUNG" },
+  { id: 'gy4', user: USERS.jin, time: "Sep 17, 2026, 11:48 PM", text: "Yoongi." },
+  { id: 'gy5', user: USERS.yoongi, time: "Sep 17, 2026, 11:48 PM", text: "i've had a lot of rest. like actual rest. i didn't know that was a thing" },
+  { id: 'gy6', user: USERS.yoongi, time: "Sep 17, 2026, 11:49 PM", text: "i know i just disappeared. i'm sorry" },
+  { id: 'gy7', user: USERS.jimin, time: "Sep 17, 2026, 11:49 PM", text: "are you okay" },
+  { id: 'gy8', user: USERS.yoongi, time: "Sep 17, 2026, 11:50 PM", text: "i'm good. really. better than i've been in a long time" },
+  { id: 'gy9', user: USERS.tae, time: "Sep 17, 2026, 11:50 PM", text: "hyung it looks like a cult" },
+  { id: 'gy10', user: USERS.jk, time: "Sep 17, 2026, 11:51 PM", text: "it's a cult" },
+  { id: 'gy11', user: USERS.yoongi, time: "Sep 17, 2026, 11:51 PM", text: "ha" },
+  { id: 'gy12', user: USERS.yoongi, time: "Sep 17, 2026, 11:52 PM", text: "yeah i know how it looks. it's helped a lot though" },
+  { id: 'gy13', user: USERS.yoongi, time: "Sep 17, 2026, 11:53 PM", text: "honestly i just miss you guys. a lot" },
+  { id: 'gy14', user: USERS.yoongi, time: "Sep 17, 2026, 11:53 PM", text: "i'd like you to come up and visit. see it for yourselves" },
+  { id: 'gy15', user: USERS.joon, time: "Sep 17, 2026, 11:55 PM", text: "…" },
+  { id: 'gy16', user: USERS.hobi, time: "Sep 17, 2026, 11:56 PM", text: "yoongi i" },
+  { id: 'gy17', user: USERS.jk, time: "Sep 17, 2026, 11:56 PM", text: "we were already coming" },
+  { id: 'gy18', user: USERS.jk, time: "Sep 17, 2026, 11:57 PM", text: "saturday. we were going to come get you" },
+  { id: 'gy19', user: USERS.jin, time: "Sep 17, 2026, 11:57 PM", text: "Jungkook." },
+  { id: 'gy20', user: USERS.yoongi, time: "Sep 17, 2026, 11:58 PM", text: "ha. of course you were" },
+  { id: 'gy21', user: USERS.yoongi, time: "Sep 17, 2026, 11:58 PM", text: "saturday is perfect" },
+  { id: 'gy22', user: USERS.jimin, time: "Sep 17, 2026, 11:59 PM", text: "we'll come" },
+  { id: 'gy23', user: USERS.tae, time: "Sep 17, 2026, 11:59 PM", text: "all of us" },
+  { id: 'gy24', user: USERS.yoongi, time: "Sep 18, 2026, 12:01 AM", text: "good. everyone is excited to meet you" },
+  { id: 'gy25', user: USERS.yoongi, time: "Sep 18, 2026, 12:01 AM", text: "i have to go. quiet hour" }
+];
+const POPIN_UNLOCK_KEY = 'eq_popin_unlocked';
+const POPIN_SEEN_KEY = 'eq_popin_seen';
 
 // Last-read marker: the red NEW line appears right after this message, and the channel opens there.
 // To move it later, change the id. Channels not listed open at the bottom as usual.
-const LAST_READ = { general: 'g303', 'yoongi-where': 'yw159' };
+const LAST_READ = { general: 'g304', 'yoongi-where': 'yw203' };
 
 
 // --- YOONGI'S MAIL (password puzzle) ---
@@ -1021,6 +1097,14 @@ export default function App() {
   const [isTextChannelsCategoryOpen, setIsTextChannelsCategoryOpen] = useState(true);
   const [isVoiceChannelsCategoryOpen, setIsVoiceChannelsCategoryOpen] = useState(true);
   const chatEndRef = useRef(null);
+  const readFlag = (k) => { try { return localStorage.getItem(k) === '1'; } catch (e) { return false; } };
+  const writeFlag = (k) => { try { localStorage.setItem(k, '1'); } catch (e) {} };
+  const [popinUnlocked, setPopinUnlocked] = useState(() => readFlag(POPIN_UNLOCK_KEY));
+  const [popinSeen, setPopinSeen] = useState(() => readFlag(POPIN_SEEN_KEY));
+  const [popinShown, setPopinShown] = useState(0);
+  const [typingUser, setTypingUser] = useState(null);
+  const [yoongiOnline, setYoongiOnline] = useState(() => readFlag(POPIN_UNLOCK_KEY) && !readFlag(POPIN_SEEN_KEY));
+  const popinStarted = useRef(false);
   const lastReadRef = useRef(null);
 
   // Auto-scroll to bottom when changing channels
@@ -1042,7 +1126,62 @@ export default function App() {
     if (Date.now() - channelOpenedAt.current < 2500) scrollToStart();
   };
 
-  const currentDisplayData = activeChannel === 'general' ? GENERAL_DATA 
+  // Unlock Yoongi's pop-in when the reader reaches the end of #yoongi-where.
+  useEffect(() => {
+    if (activeChannel !== 'yoongi-where' || popinUnlocked) return;
+    const el = chatEndRef.current;
+    if (!el || typeof IntersectionObserver === 'undefined') return;
+    const obs = new IntersectionObserver((entries) => {
+      if (entries.some(e => e.isIntersecting)) {
+        writeFlag(POPIN_UNLOCK_KEY);
+        setPopinUnlocked(true);
+        setYoongiOnline(true);
+      }
+    }, { threshold: 1 });
+    const t = setTimeout(() => obs.observe(el), 1500); // ignore the jump on channel open
+    return () => { clearTimeout(t); obs.disconnect(); };
+  }, [activeChannel, popinUnlocked]);
+
+  // Play the pop-in live the first time the reader opens #general after unlocking.
+  useEffect(() => {
+    if (activeChannel !== 'general' || !popinUnlocked || popinSeen || popinStarted.current) return;
+    popinStarted.current = true;
+    setYoongiOnline(true);
+    let i = 0;
+    const timers = [];
+    const next = () => {
+      if (i >= YOONGI_POPIN.length) {
+        setTypingUser(null);
+        writeFlag(POPIN_SEEN_KEY);
+        timers.push(setTimeout(() => { setYoongiOnline(false); setPopinSeen(true); }, 2500));
+        return;
+      }
+      const msg = YOONGI_POPIN[i];
+      setTypingUser(msg.user.name);
+      const typingTime = Math.min(2600, 900 + msg.text.length * 25);
+      timers.push(setTimeout(() => {
+        i += 1;
+        setPopinShown(i);
+        setTypingUser(null);
+        timers.push(setTimeout(next, 700));
+      }, typingTime));
+    };
+    timers.push(setTimeout(next, 1800));
+    return () => {};
+  }, [activeChannel, popinUnlocked, popinSeen]);
+
+  // Keep the newest pop-in message in view while it plays.
+  useEffect(() => {
+    if (activeChannel === 'general' && popinShown > 0 && !popinSeen) {
+      chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [popinShown, typingUser]);
+
+  const generalData = popinSeen ? GENERAL_DATA.concat(YOONGI_POPIN) : GENERAL_DATA.concat(YOONGI_POPIN.slice(0, popinShown));
+  const memberList = Object.values(USERS).map(u => u === USERS.yoongi ? { ...u, status: yoongiOnline ? 'online' : 'offline' } : u);
+  const generalUnread = popinUnlocked && !popinSeen && popinShown === 0;
+
+  const currentDisplayData = activeChannel === 'general' ? generalData 
                            : activeChannel === 'welcome' ? WELCOME_DATA 
                            : activeChannel === 'announcements' ? ANNOUNCEMENTS_DATA 
                            : activeChannel === 'yoongi-where' ? YOONGI_WHERE_DATA
@@ -1133,7 +1272,8 @@ export default function App() {
                     onClick={() => setActiveChannel('general')}
                     className={`flex items-center gap-2 px-2 py-1.5 rounded cursor-pointer transition-colors ${activeChannel === 'general' ? 'bg-[#393c43] text-white' : 'hover:bg-[#393c43] text-gray-400'}`}
                   >
-                    <Hash size={18} /> general
+                    <Hash size={18} /> <span className={generalUnread && activeChannel !== 'general' ? 'text-white font-semibold' : ''}>general</span>
+                    {generalUnread && activeChannel !== 'general' && <span className="ml-auto w-2 h-2 rounded-full bg-white"></span>}
                   </div>
                   <div 
                     onClick={() => setActiveChannel('yoongi-where')}
@@ -1346,6 +1486,12 @@ export default function App() {
                 </React.Fragment>
               );
             })}
+            {typingUser && activeChannel === 'general' && (
+              <div className="px-4 pt-2 pb-1 text-[13px] text-[#b9bbbe] flex items-center gap-2">
+                <span className="flex gap-0.5"><span className="w-1.5 h-1.5 rounded-full bg-[#b9bbbe] animate-bounce"></span><span className="w-1.5 h-1.5 rounded-full bg-[#b9bbbe] animate-bounce" style={{ animationDelay: '0.15s' }}></span><span className="w-1.5 h-1.5 rounded-full bg-[#b9bbbe] animate-bounce" style={{ animationDelay: '0.3s' }}></span></span>
+                <span><b className="text-[#dcddde]">{typingUser}</b> is typing…</span>
+              </div>
+            )}
             <div ref={chatEndRef} />
           </div>
         </div>
@@ -1369,9 +1515,9 @@ export default function App() {
               </button>
             </div>
 
-            <h2 className="text-[12px] font-bold text-[#8e9297] uppercase tracking-wider mb-2 px-2">Online — 6</h2>
+            <h2 className="text-[12px] font-bold text-[#8e9297] uppercase tracking-wider mb-2 px-2">Online — {memberList.filter(u => u.status === 'online').length}</h2>
             
-            {Object.values(USERS).filter(u => u.status === 'online').map(user => (
+            {memberList.filter(u => u.status === 'online').map(user => (
               <div key={user.name} className="flex items-center gap-3 p-2 hover:bg-[#393c43] rounded cursor-pointer group transition-colors">
                 <div className="relative flex-shrink-0">
                   <img src={user.avatar} alt={user.name} className="w-8 h-8 rounded-full object-cover" />
@@ -1381,9 +1527,9 @@ export default function App() {
               </div>
             ))}
 
-            <h2 className="text-[12px] font-bold text-[#8e9297] uppercase tracking-wider mt-6 mb-2 px-2">Offline — 1</h2>
+            {memberList.some(u => u.status === 'offline') && <h2 className="text-[12px] font-bold text-[#8e9297] uppercase tracking-wider mt-6 mb-2 px-2">Offline — {memberList.filter(u => u.status === 'offline').length}</h2>}
             
-            {Object.values(USERS).filter(u => u.status === 'offline').map(user => (
+            {memberList.filter(u => u.status === 'offline').map(user => (
               <div key={user.name} className="flex items-center gap-3 p-2 hover:bg-[#393c43] rounded cursor-pointer opacity-40 grayscale transition-colors">
                 <div className="relative flex-shrink-0">
                   <img src={user.avatar} alt={user.name} className="w-8 h-8 rounded-full object-cover" />
